@@ -3,6 +3,6 @@ layout: page
 title: Contact
 ---
 
-E-mail: not at kennethcha dot ng
+@: not at kennethcha dot ng
 
-Location: Newport Beach, California
+&#127760;: Newport Beach, California
