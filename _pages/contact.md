@@ -7,6 +7,4 @@ Location: Newport Beach, California
 
 E-mail: not at kennethcha dot ng
 
-Instagram: @kennitochang
-
-LinkedIn: linkedin.com/in/kenneth-g-chang
+Instagram: kennitochang
