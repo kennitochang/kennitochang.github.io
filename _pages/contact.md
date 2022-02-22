@@ -5,4 +5,4 @@ title: Contact
 
 E-mail: not at kennethcha dot ng
 
-Location: Newport Beach, CA
+Location: Newport Beach, California
