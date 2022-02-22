@@ -3,14 +3,14 @@
 
     {% assign url = page.url | split: "/" %}
     {% if url[1] == "yue" %}
-      {% assign lang = "yue"}
-      {% assign pg = url[2]}
+      {% assign lang = "yue" %}
+      {% assign pg = url[2] %}
     {% elseif url[1] == "es" %}
-      {% assign lang = "yue"}
-      {% assign pg = url[2]}
+      {% assign lang = "yue" %}
+      {% assign pg = url[2] %}
     {% else %}
-      {% assign lang = "en"}
-      {% assign pg = url[1]}
+      {% assign lang = "en" %}
+      {% assign pg = url[1] %}
     {% endif %}
 
     <li><a href="/" style="text-decoration:none;" {% if page.url == "/" %}class="active"{% endif %}>&#x259E;</a></li>
