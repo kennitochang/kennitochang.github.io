@@ -3,6 +3,10 @@ layout: page
 title: Contact
 ---
 
-@: not at kennethcha dot ng
+Location: Newport Beach, California
 
-&#127760;: Newport Beach, California
+E-mail: not at kennethcha dot ng
+
+Instagram: @kennitochang
+
+LinkedIn: linkedin.com/in/kenneth-g-chang
