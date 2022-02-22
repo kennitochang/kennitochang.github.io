@@ -18,6 +18,7 @@
     <li><a href="/notes" {% if url[1] == "notes" %}class="active"{% endif %}>Notes</a></li>
     <li><a href="/contact" {% if url[1] == "contact" %}class="active"{% endif %}>Contact</a></li>
     <li>
+      {{lang}}
       <a href="/en" {% if lang == "en" %}class="active"{% endif %}>EN</a>/<a href="/es" {% if lang == "es" %}class="active"{% endif %}>ES</a>/<a href="/yue" {% if lang == "yue" %}class="active"{% endif %}>YUE</a>
     </li>
   </ul>
