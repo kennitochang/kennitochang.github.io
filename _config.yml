@@ -26,6 +26,13 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap  
 
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+
 defaults:
   -
     scope:
@@ -49,21 +56,21 @@ defaults:
       image: true
 
   - scope:
-    path: _posts/en
-    type: posts
+      path: _posts/en
+      type: posts
     values:
-    lang: en
-    permalink: /en/:year/:month/:day/:slug
+      lang: en
+      permalink: /en/:year/:month/:day/:slug
   - scope:
-    path: _posts/es
-    type: posts
+      path: _posts/es
+      type: posts
     values:
-    lang: es
-    permalink: /es/:year/:month/:day/:slug
+      lang: es
+      permalink: /es/:year/:month/:day/:slug
   - scope:
-    path: _posts/yue
-    type: posts
+      path: _posts/yue
+      type: posts
     values:
-    lang: yue
-    permalink: /yue/:year/:month/:day/:slug
+      lang: yue
+      permalink: /yue/:year/:month/:day/:slug
 

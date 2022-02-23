@@ -1,0 +1,5 @@
+User-agent: *
+Sitemap: https://kennethcha.ng/sitemap.xml
+
+User-agent: ia_archiver
+Disallow: /
