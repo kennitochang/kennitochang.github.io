@@ -48,35 +48,14 @@ defaults:
       path: ""
       type: "pages"
     values:
-      lang: "en"
       layout: "page"
-      base-url: "/"
   -
     scope:
       path: ""
       type: "posts"
     values:
-      lang: "en"
       layout: "post"
-      base-url: "/"
-  -
-    scope:
-      path: "en"
-    values:
-      lang: "en"
-      base-url: "/en/"
-  -
-    scope:
-      path: "es"
-    values:
-      lang: "es"
-      base-url: "/es/"
-  -
-    scope:
-      path: "yue"
-    values:
-      lang: "yue"
-      base-url: "/yue/"
+
   - scope:
       path: "assets/images"
     values:
