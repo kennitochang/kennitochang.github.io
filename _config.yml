@@ -29,10 +29,10 @@ plugins:
 collections:
   pages:
     output: true
-    permalink: /:path/:name
+    permalink: /:name
   posts:
     output: true
-    permalink: /:path/:year/:month/:day/:slug
+    permalink: /:year/:month/:day/:slug
 
 defaults:
   -
