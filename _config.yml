@@ -1,7 +1,7 @@
 site: Kenneth Chang
 url: https://kennethcha.ng
 title: Kenneth Chang
-description: Kenneth Changs Personal Page
+description: Kenneth Chang’s Personal Page
 description_en: Kenneth Chang’s Personal Page
 description_es: Página Personal de Kenneth Chang
 description_yue: Kenneth Chang嘅個人網頁
@@ -11,7 +11,7 @@ permalink: pretty
 paginate:            1000
 paginate_path:       "/page:num/"
 baseurl:             ""
-  
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -33,7 +33,7 @@ collections:
   posts:
     output: true
     permalink: /:path/:year/:month/:day/:slug
-  
+
 defaults:
   -
     scope:
