@@ -28,8 +28,10 @@ plugins:
 
 collections:
   pages:
+    permalink: pretty
     output: true
   posts:
+    permalink: pretty
     output: true
 
 defaults:
