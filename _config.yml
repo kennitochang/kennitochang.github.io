@@ -31,6 +31,8 @@ collections:
     output: true
   posts:
     output: true
+  main:
+    output: true
 
 defaults:
   -
@@ -48,6 +50,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+  - scope:
+      path: "_main"
+    values:
+      permalink: /:name
 
   - scope:
       path: "assets/images"
