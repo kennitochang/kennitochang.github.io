@@ -61,18 +61,42 @@ defaults:
   -
     scope:
       path: "en"
+      type: "pages"
+    values:
+      lang: "en"
+      base-url: "/en/"
+  -
+    scope:
+      path: "en"
+      type: "posts"
     values:
       lang: "en"
       base-url: "/en/"
   -
     scope:
       path: "es"
+      type: "pages"
+    values:
+      lang: "es"
+      base-url: "/es/"
+  -
+    scope:
+      path: "es"
+      type: "posts"
     values:
       lang: "es"
       base-url: "/es/"
   -
     scope:
       path: "yue"
+      type: "pages"
+    values:
+      lang: "yue"
+      base-url: "/yue/"
+  -
+    scope:
+      path: "yue"
+      type: "posts"
     values:
       lang: "yue"
       base-url: "/yue/"
