@@ -5,7 +5,6 @@ description: Kenneth Changs Personal Page
 description_en: Kenneth Chang’s Personal Page
 description_es: Página Personal de Kenneth Chang
 description_yue: Kenneth Chang嘅個人網頁
-baseurl:          /
 
 permalink: pretty
 
@@ -40,9 +39,7 @@ defaults:
     scope:
       path: ""
     values:
-      lang: "en"
       layout: "default"
-      base-url: "/"
   -
     scope:
       path: ""
