@@ -13,10 +13,10 @@
       {% assign pg = url[1] %}
     {% endif %}
 
-    <li><a href="/" style="text-decoration:none;" {% if page.url == "/" %}class="active"{% endif %}>&#x259E;</a></li>
-    <li><a href="/bio" {% if url[1] == "bio" %}class="active"{% endif %}>Bio</a></li>
-    <li><a href="/notes" {% if url[1] == "notes" %}class="active"{% endif %}>Notes</a></li>
-    <li><a href="/contact" {% if url[1] == "contact" %}class="active"{% endif %}>Contact</a></li>
+    <li><a href="/{{lang}}/" style="text-decoration:none;" {% if page.url == "/" %}class="active"{% endif %}>&#x259E;</a></li>
+    <li><a href="/{{lang}}/bio" {% if url[1] == "bio" %}class="active"{% endif %}>Bio</a></li>
+    <li><a href="/{{lang}}/notes" {% if url[1] == "notes" %}class="active"{% endif %}>Notes</a></li>
+    <li><a href="/{{lang}}/contact" {% if url[1] == "contact" %}class="active"{% endif %}>Contact</a></li>
     <li>
       <a href="/en" {% if lang == "en" %}class="active-language"{% endif %}>EN</a>/<a href="/es" {% if lang == "es" %}class="active-language"{% endif %}>ES</a>/<a href="/yue" {% if lang == "yue" %}class="active-langauge"{% endif %}>YUE</a>
     </li>

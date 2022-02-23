@@ -29,7 +29,6 @@ plugins:
 collections:
   pages:
     output: true
-    permalink: /:name
   posts:
     output: true
 
@@ -73,4 +72,23 @@ defaults:
     values:
       lang: yue
       permalink: /yue/:year/:month/:day/:slug
+
+  - scope:
+      path: _pages/en
+      type: posts
+    values:
+      lang: en
+      permalink: /en/:name
+  - scope:
+      path: _pages/es
+      type: posts
+    values:
+      lang: es
+      permalink: /es/:name
+  - scope:
+      path: _pages/yue
+      type: posts
+    values:
+      lang: yue
+      permalink: /yue/:name
 
