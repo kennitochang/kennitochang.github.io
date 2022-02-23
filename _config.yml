@@ -28,7 +28,7 @@ plugins:
 
 collections:
   pages:
-    permalink: pretty
+    permalink: /:name
     output: true
   posts:
     permalink: pretty
