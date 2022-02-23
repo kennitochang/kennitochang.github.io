@@ -75,19 +75,19 @@ defaults:
 
   - scope:
       path: _pages/en
-      type: posts
+      type: pages
     values:
       lang: en
       permalink: /en/:name
   - scope:
       path: _pages/es
-      type: posts
+      type: pages
     values:
       lang: es
       permalink: /es/:name
   - scope:
       path: _pages/yue
-      type: posts
+      type: pages
     values:
       lang: yue
       permalink: /yue/:name
