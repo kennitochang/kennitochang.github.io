@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://kennethcha.ng/pages/en/bio/</loc>
-<lastmod>2022-02-23T17:26:39-05:00</lastmod>
+<loc>https://kennethcha.ng/en/bio</loc>
+<lastmod>2022-02-23T17:32:26-05:00</lastmod>
 </url>
 <url>
-<loc>https://kennethcha.ng/pages/en/contact/</loc>
-<lastmod>2022-02-23T17:26:39-05:00</lastmod>
+<loc>https://kennethcha.ng/en/contact</loc>
+<lastmod>2022-02-23T17:32:26-05:00</lastmod>
 </url>
 <url>
-<loc>https://kennethcha.ng/pages/en/notes/</loc>
-<lastmod>2022-02-23T17:26:39-05:00</lastmod>
+<loc>https://kennethcha.ng/en/index</loc>
+<lastmod>2022-02-23T17:32:26-05:00</lastmod>
+</url>
+<url>
+<loc>https://kennethcha.ng/en/notes</loc>
+<lastmod>2022-02-23T17:32:26-05:00</lastmod>
 </url>
 <url>
 <loc>https://kennethcha.ng/en/2022/02/22/jyutping-tone-marks</loc>
