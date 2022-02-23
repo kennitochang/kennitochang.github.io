@@ -31,7 +31,7 @@ collections:
     permalink: /:name
     output: true
   posts:
-    permalink: pretty
+    permalink: :pretty
     output: true
 
 defaults:
