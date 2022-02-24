@@ -18,18 +18,16 @@
     {% endfor %}
 
     </li>
-  </ul>
-
-  <ul>
+  </ul><ul>
     {% for item in site.data.navigation.languages %}
       {% assign posts=site.posts | where:"lang-ref", page.lang-ref | where:"lang", item.language %}
       {% if posts.size == 0 %}
         {% assign posts=site.pages | where:"lang-ref", page.lang-ref | where:"lang", item.language %}
       {% endif %}
       {% if posts.size >= 1 %}
-        /<li><a href="{{posts[0].url}}" {% if page.lang == item.language %}class="active-language"{% endif %}>{{item.language}}</a></li>
+        <li>/<a href="{{posts[0].url}}" {% if page.lang == item.language %}class="active-language"{% endif %}>{{item.language}}</a></li>
         {% else %}
-        /<li><a class="inactive-link">{{item.language}}</a></li>
+        <li>/<a class="inactive-link">{{item.language}}</a></li>
       {% endif %}
     {% endfor %}
   </ul>
