@@ -26,12 +26,12 @@ Cantonese is generally accepted by linguists to have six tones (seven in some ca
 
 ## Choice of Tone Marks
 
-The tone marks I chose were based off of three principles:
+The tone marks I chose were based off of four principles:
 
-1. Familiarity and compatibility with existing systems, namely Vietnamese, pinyin, and the Yale romanization with tone marks. This is difficult to define, but tone marks which appear in other systems should produce the same sounds in Cantonese whenever possible.
-2. Tone marks that are easy to interpret.
-3. Visual distinctness of tone marks.
-4. Using [precomposed unicode characters](https://en.wikipedia.org/wiki/List_of_precomposed_Latin_characters_in_Unicode) for lexical items. Generally, we need tone marks that are available for all vowels _aeiou_ and for the low tones (4-6) plus the changed tone (2) on the letter _n_. 
+- Familiarity and compatibility with existing systems, namely Vietnamese, pinyin, and the Yale romanization with tone marks. This is difficult to define, but tone marks which appear in other systems should produce the same sounds in Cantonese whenever possible.
+- Tone marks that are easy to interpret.
+- Visual distinctness of tone marks.
+- Using [precomposed unicode characters](https://en.wikipedia.org/wiki/List_of_precomposed_Latin_characters_in_Unicode) for lexical items. Generally, we need tone marks that are available for all vowels _aeiou_ and for the low tones (4-6) plus the changed tone (2) on the letter _n_. 
 
 For tones 1-3 and 6, it is easy to satisfy all of these criteria.
 
@@ -41,7 +41,7 @@ For tones 1-3 and 6, it is easy to satisfy all of these criteria.
 
 3. For the third tone, Yale and Vietnamese both use an unmarked vowel to represent a mid-level tone, and Mandarin uses it for a neutral tone. Cantonese does not have a neutral tone, although words with the third tone are often used similar to those in Mandarin with a neutral tone (e.g. for the possessive marker 嘅, equivalent to 的, and a high percentage of final particles). Thus, an unmarked syllable is the natural choice.
 
-4. Neither pinyin nor Yale has an equivalent tone mark for the low-level tone (Yale uses the letter _h_ to indicate this, and Mandarin does not have an equivalent tone). Vietnamese has a glottalized tone with a similar contour, for which it uses a dot below (ạ). In addition, Vietnamese words with this tone are generally etymologically related to Cantonese words with the same tone. Visually, a dot below can be thought of as the antithesis to the macron above (ā), as indicating a downward shift in pitch rather than an upward shift.
+6. Neither pinyin nor Yale has an equivalent tone mark for the low-level tone (Yale uses the letter _h_ to indicate this, and Mandarin does not have an equivalent tone). Vietnamese has a glottalized tone with a similar contour, for which it uses a dot below (ạ). In addition, Vietnamese words with this tone are generally etymologically related to Cantonese words with the same tone. Visually, a dot below can be thought of as the antithesis to the macron above (ā), as indicating a downward shift in pitch rather than an upward shift.
 
 The remaining two tones (4 and 5) pose more of a quandary, as the closest tones in the other systems are more disparate. Based on the criteria of emphasizing precomposed Unicode characters, we only have a few options, namely the haček (ǎ), grave (à), and tilde (ã) accents. We can also consider the circumflex (â), which has appeared in other proposals, since although there is no precomposed character with _n_, it is still possible to type an _n_ with a circumflex easily using the ABC-Extended keyboard on Mac OS.
 
@@ -59,3 +59,5 @@ The only remaining choices are the haček (ǎ) and the grave (à). While argumen
 
 
 ## Browser Extension
+Firefox:
+- https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/
