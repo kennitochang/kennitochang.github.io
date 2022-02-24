@@ -19,15 +19,15 @@ As it stands, the Linguistic Society of Hong Kong (see [jyutping.org](https://jy
 
 At a small cost in terms of the ability to distinguish tones, tone-marked jyutping reduces the amount of clutter and space between annotated Chinese characters. It provides a more natural reading experience for learning Cantonese and/or jyutping.
 
-
-Based on reasoning which is provided below, I implemented the browser extension using the following system:
+My browser extension for jyutping annotation uses the following system:
 
 | Tone Number | 1 | 2 | 3 | 4 | 5 | 6 |
 |-------------|---|---|---|---|---|---|
 | Tone Mark   | ā | á | a | à | ǎ | ạ |
 
+A discussion of Cantonese tones and a rationale for these tone marks is given in the Appendices.
 
-## Browser Extension
+## Download Link
 - [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/)
 
 
