@@ -19,8 +19,8 @@ languages:
         title: Sobre Mí
         url: /sobre-mi
       - 
-        title: Memoranda
-        url: /memoranda
+        title: Notas
+        url: /notas
       - 
         title: Contactar
         url: /contactar
