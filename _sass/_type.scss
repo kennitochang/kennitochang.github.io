@@ -37,15 +37,19 @@ a.active {
 }
 
 a.active-language {
-    background: black; 
-    color: white;
+    background: white; 
+    padding: 0.5rem;
+    color: black;
     font-weight: bold;
+    font-size: 80%
 }
 
 a.inactive-language {
     background: black;
-    color: tan;
+    padding: 0.5rem;
+    color: white;
     font-weight: bold;
+    font-size: 80%
 }
 
 blockquote {
