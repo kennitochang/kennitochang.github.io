@@ -22,11 +22,9 @@ At a small cost in terms of the ability to distinguish tones, tone-marked jyutpi
 
 Based on reasoning which is provided below, I implemented the browser extension using the following system:
 
- <font size="6"> 
 | Tone Number | 1 | 2 | 3 | 4 | 5 | 6 |
 |-------------|---|---|---|---|---|---|
 | Tone Mark   | ā | á | a | à | ǎ | ạ |
-</font>
 
 
 ## Browser Extension
