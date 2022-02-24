@@ -3,7 +3,7 @@
   {% assign url = page.url | split: "/" %}
 
   <ul>
-    <li><a href="/{{page.lang}}" style="text-decoration:none;" {% if page.url == "/{{page.lang}}" %}class="active"{% endif %}>&#x259E;</a></li>
+    <li><a href="/{{page.lang}}" style="text-decoration:none;" {% if page.lang-ref == "main" %}class="active"{% endif %}>&#x259E;</a></li>
     {% for item in site.data.navigation.languages %} 
     {% if item.language == page.lang %} 
     {% for link in item.links %} 
