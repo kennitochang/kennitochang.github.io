@@ -14,6 +14,7 @@ As it stands, the Linguistic Society of Hong Kong (see [jyutping.org](jyutping.o
 ## Comparison of "Numbered" vs "Marked" Jyutping annotation
 
 | ![A poem annotated with numbered jyutping.](/assets/images/jyutping-number-annotation.png) | ![A poem annotated with marked jyutping.](/assets/images/jyutping-tonemark-annotation.png) |
+|-|-|
 
 Without sacrificing readability, tone-marked jyutping reduces the amount of clutter and space between Chinese characters. It provides a more natural reading experience for anyone wishing to study jyutping and/or Cantonese.
 
