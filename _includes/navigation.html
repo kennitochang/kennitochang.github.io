@@ -3,7 +3,7 @@
   {% assign url = page.url | split: "/" %}
 
   <ul>
-    <li><a href="/{{page.lang}}/" style="text-decoration:none;" {% if page.url == "url[2] == """ %}class="active"{% endif %}>&#x259E;</a></li>
+    <li>{{url[2]}} <a href="/{{page.lang}}/" style="text-decoration:none;" {% if page.url == "url[2] == """ %}class="active"{% endif %}>&#x259E;</a></li>
     <li><a href="/{{page.lang}}/bio" {% if url[2] == "bio" %}class="active"{% endif %}>Bio</a></li>
     <li><a href="/{{page.lang}}/notes" {% if url[2] == "notes" %}class="active"{% endif %}>Notes</a></li>
     <li><a href="/{{page.lang}}/contact" {% if url[2] == "contact" %}class="active"{% endif %}>Contact</a></li>
