@@ -1,0 +1,2 @@
+I"3<p>I recently came across CanCLID’s <a href="https://github.com/CanCLID/inject-jyutping">Inject Jyutping</a> browser extension. The basic idea is to annotate Chinese characters with the associated Cantonese pronunciation in [https://en.wikipedia.org/wiki/Jyutping), the <em>de facto</em> standard romanization for Cantonese in academia and education. However, I unfortunately found it difficult to use due to an often-cited issue with Jyutping, which is that it uses numbers to represent tones, causing a high degree of clutter. This can be observed below:</p>
+:ET
