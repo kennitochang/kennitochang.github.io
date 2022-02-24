@@ -1,0 +1,38 @@
+--- 
+languages: 
+  - 
+    language: en
+    links: 
+      - 
+        title: Bio
+        url: /bio/
+      - 
+        title: Notes
+        url: /notes/
+      - 
+        title: Contact
+        url: /contact/
+  - 
+    language: es
+    links: 
+      - 
+        title: Sobre Mí
+        url: /sobre-mi/
+      - 
+        title: Memoranda
+        url: /memoranda/
+      - 
+        title: Contactar
+        url: /contactar/
+  - 
+    language: yue
+    links: 
+      - 
+        title: 關於我
+        url: /gwaanjyu-ngo/
+      - 
+        title: 筆記
+        url: /batgei/
+      - 
+        title: 聯繫
+        url: /lyunhai/

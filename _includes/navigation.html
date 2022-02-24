@@ -2,6 +2,18 @@
 
   {% assign url = page.url | split: "/" %}
 
+  {% for item in site.data.navigation.languages %} 
+  {% if item.language == page.lang %} 
+  {% for link in item.links %} 
+  {% if link.url contains "http" %} 
+  {% assign url = link.url %} 
+  {% else %} 
+  {% assign url = link.url | relative_url %} 
+  {% endif %} 
+  <a class="page-link" href="{{ url }}">{{ link.title }}</a> 
+  {% endfor %} 
+  {% endif %} 
+  {% endfor %}
   <ul>
     <li><a href="/{{page.lang}}/" style="text-decoration:none;" {% if page.url == "/{{page.lang}}/" %}class="active"{% endif %}>&#x259E;</a></li>
     <li><a href="/{{page.lang}}/bio" {% if url[2] == "bio" %}class="active"{% endif %}>Bio</a></li>
