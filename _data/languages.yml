@@ -1,0 +1,21 @@
+en:
+  name: en
+  description: Kenneth Chang’s Webpage
+  bio: bio
+  notes: notes
+  contact: contact
+
+es:
+  name: es
+  description: Página Web de Kenneth Chang
+  bio: sobre mí
+  notes: notas
+  contact: contactar
+
+yue:
+  name: yue
+  description: Kenneth Chang嘅個人網頁
+  bio: 關於我
+  notes: 筆記
+  contact: 聯繫
+
