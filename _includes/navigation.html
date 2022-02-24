@@ -14,8 +14,7 @@
         {% endfor %} 
       {% endif %} 
     {% endfor %}
-
-    <li>{% for item in site.data.navigation.languages %}{% assign posts=site.posts | where:"lang-ref", page.lang-ref | where:"lang", item.language %}{% if posts.size == 0 %}{% assign posts=site.pages | where:"lang-ref", page.lang-ref | where:"lang", item.language %}{% endif %}{% if posts.size >= 1 %}<a href="{{posts[0].url}}"{% if page.lang == item.language %}class="active-language"{% endif %}>{{item.language}}</a>/{% else %}/<a class="inactive-link">{{item.language}}</a>{% endif %}{% endfor %}&#x2408;
+    <li>{% for item in site.data.navigation.languages %}{% if item.language != "en"}/{% endif %}{% assign posts=site.posts | where:"lang-ref", page.lang-ref | where:"lang", item.language %}{% if posts.size == 0 %}{% assign posts=site.pages | where:"lang-ref", page.lang-ref | where:"lang", item.language %}{% endif %}{% if posts.size >= 1 %}<a href="{{posts[0].url}}"{% if page.lang == item.language %}class="active-language"{% else %}class="inactive-language"{% endif %}>{{item.language}}</a>{% else %}<a class="inactive-link">{{item.language}}</a>{% endif %}{% endfor %}&#x2408;
     </li>
   </ul>
 </nav>
