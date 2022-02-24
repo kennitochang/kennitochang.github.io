@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Notes
+title: Notas
 lang-ref: notes
 ---
 

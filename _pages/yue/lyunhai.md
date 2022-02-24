@@ -4,8 +4,8 @@ title: 聯繫
 lang-ref: contact
 ---
 
-Location: Newport Beach, California
+地點: 加州新港攤
 
-E-mail: not at kennethcha dot ng
+電郵: not at kennethcha 點 ng
 
-Instagram: kennitochang
+IG/GitHub: kennitochang

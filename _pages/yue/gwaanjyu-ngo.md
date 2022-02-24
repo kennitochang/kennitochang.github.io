@@ -4,4 +4,4 @@ title: 關於我
 lang-ref: bio
 ---
 
-I am a software engineer at Google.
+我喺Google做軟件工程。
