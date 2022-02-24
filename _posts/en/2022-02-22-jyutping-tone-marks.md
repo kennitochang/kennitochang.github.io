@@ -14,8 +14,6 @@ As it stands, the Linguistic Society of Hong Kong (see [jyutping.org](jyutping.o
 ## Comparison of "Numbered" vs "Marked" Jyutping annotation
 
 | ![A poem annotated with numbered jyutping.](/assets/images/jyutping-number-annotation.png) | ![A poem annotated with marked jyutping.](/assets/images/jyutping-tonemark-annotation.png) |
-|-|-|
-| | |
 
 ## Cantonese Tones
 Cantonese is generally accepted by linguists to have six tones (seven in some cases, although the "seventh tone" is largely merging into the first tone).
