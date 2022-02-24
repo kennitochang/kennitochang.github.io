@@ -36,20 +36,18 @@ a.active {
     font-weight: bold;
 }
 
-a.active-language {
+a.inactive-language {
     background: white; 
     padding: 0.5rem;
     color: black;
     font-weight: bold;
-    font-size: 80%
 }
 
-a.inactive-language {
+a.active-language {
     background: black;
     padding: 0.5rem;
     color: white;
     font-weight: bold;
-    font-size: 80%
 }
 
 blockquote {
@@ -94,4 +92,8 @@ pre {
 
 .date {
   opacity: 0.6;
+}
+
+li.language {
+  font-size: "80%"
 }
