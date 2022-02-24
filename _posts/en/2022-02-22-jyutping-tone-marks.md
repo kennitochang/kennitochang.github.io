@@ -13,19 +13,19 @@ As it stands, the Linguistic Society of Hong Kong (see [jyutping.org](https://jy
 
 ## Comparison of "Numbered" vs "Marked" Jyutping annotation
 
+Based on CanCLID's browser extension, I created a browser extension for jyutping annotation that uses the following system:
+
+| Tone Number | 1 | 2 | 3 | 4 | 5 | 6 |
+|-------------|---|---|---|---|---|---|
+| Tone Mark   | ā | á | a | à | ǎ | ạ |
+
 | ![A poem annotated with numbered jyutping.](/assets/images/jyutping-number-annotation.png) | ![A poem annotated with marked jyutping.](/assets/images/jyutping-tonemark-annotation.png) |
 |-|-|
 | | |
 
 At a small cost in terms of the ability to distinguish tones, tone-marked jyutping reduces the amount of clutter and space between annotated Chinese characters. It provides a more natural reading experience for learning Cantonese and/or jyutping.
 
-My browser extension for jyutping annotation uses the following system:
-
-| Tone Number | 1 | 2 | 3 | 4 | 5 | 6 |
-|-------------|---|---|---|---|---|---|
-| Tone Mark   | ā | á | a | à | ǎ | ạ |
-
-A discussion of Cantonese tones and a rationale for these tone marks is given in the Appendices.
+Currently the extension is only available for Firefox. A discussion of Cantonese tones and a rationale for choosing these tone marks is given in the Appendices.
 
 ## Download Link
 - [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/)
