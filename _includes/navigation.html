@@ -23,7 +23,7 @@
         {% assign posts=site.pages | where:"lang-ref", page.lang-ref | where:"lang", item.language %}
       {% endif %}
       {% if posts.size >= 1 %}
-        /<a href="{{posts[0].url}}" {% if page.lang == "{{item.language}}" %}class="active-language"{% endif %}>{{item.language}}</a>
+        /<a href="{{posts[0].url}}" {% if page.lang == item.language %}class="active-language"{% endif %}>{{item.language}}</a>
       {% else %}
         /{{item.language}}
       {% endif %}
