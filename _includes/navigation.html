@@ -15,21 +15,18 @@
       {% endif %} 
     {% endfor %}
 
+    <li>
     {% for item in site.data.navigation.languages %}
       {% assign posts=site.posts | where:"lang-ref", page.lang-ref | where:"lang", item.language %}
       {% if posts.size == 0 %}
         {% assign posts=site.pages | where:"lang-ref", page.lang-ref | where:"lang", item.language %}
       {% endif %}
       {% if posts.size >= 1 %}
-        <li>/<a href="{{posts[0].url}}" {% if page.lang == item.language %}class="active-language"{% endif %}>{{item.language}}</a></li>
+        /<a href="{{posts[0].url}}" {% if page.lang == item.language %}class="active-language"{% endif %}>{{item.language}}</a>
         {% else %}
-        <li>/<a class="inactive-link">{{item.language}}</a></li>
+        /<a class="inactive-link">{{item.language}}</a>
       {% endif %}
     {% endfor %}
-    <select name="forma">
-      <option value="Home">Home</option>
-      <option value="Contact">Contact</option>
-      <option value="Sitemap">Sitemap</option>
-    </select>
+    </li>
   </ul>
 </nav>
