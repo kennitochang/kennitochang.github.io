@@ -66,6 +66,5 @@ The only remaining choices are the haček (ǎ) and the grave (à). While argumen
 
 
 ## Browser Extension
-Firefox:
-- https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/
+- [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/)
 
