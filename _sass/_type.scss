@@ -52,6 +52,15 @@ a.active-language {
     margin: 0;
 }
 
+a.unavailable-langauge {
+    background: white;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 0.2rem;
+    margin: 0;
+}
+
+
 blockquote {
   background: #f9f9f9;
   border-left: 5px solid black;
