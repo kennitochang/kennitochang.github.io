@@ -40,12 +40,12 @@ Cantonese is generally accepted by linguists to have six tones (seven in some ca
 
 | Tone Number | Description | Yale | Closest Vietnamese Tone\* | Closest Mandarin Tone |
 |-------------|-------------|------|---------------------------|-----------------------|
-| 1           | high level  | ā    | X                         | ā                     |
-| 2           | high rising | á    | á                         | á                     |
-| 3           | mid level   | a    | a                         | X                     |
-| 4           | low falling | àh   | à, ả                      | ǎ                     |
+| 1           | high level  | ā    | X                         | ā (T1)                |
+| 2           | high rising | á    | á (sắc)                   | á (T2)                |
+| 3           | mid level   | a    | a (ngang)                 | X                     |
+| 4           | low falling | àh   | à (huyền), ả (hỏi)        | ǎ (T3)                |
 | 5           | low rising  | áh   | X                         | X                     |
-| 6           | low level   | ah   | ạ                         | X                     |
+| 6           | low level   | ah   | ạ (nặng)                  | X                     |
 
 <small>\* Hanoi pronunciations. Note that Vietnamese tones' production and perception depends on both pitch and [phonation](https://en.wikipedia.org/wiki/Phonation). For these comparisons, we rely on pitch contour only, as phonation is a negligible factor in Cantonese tones. Thus, these comparisons might not accurately represent how speakers of Vietnamese and Cantonese might perceive tones from the other language.</small>
 
