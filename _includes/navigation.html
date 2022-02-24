@@ -1,7 +1,7 @@
 <nav role="navigation">
   {% assign url = page.url | split: "/" %}
   <ul>
-    <li><a href="/{{page.lang}}" {% if page.lang-ref == "main" %}class="active"{% endif %}>&#x259E;</a></li>
+    <li><a href="/{{page.lang}}">{% if page.lang-ref == "main" %}▚{% else %}▞{% endif %}</a></li>
     {% for item in site.data.navigation.languages %} 
       {% if item.language == page.lang %} 
         {% for link in item.links %} 
