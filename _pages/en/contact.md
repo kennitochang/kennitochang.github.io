@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+lang-ref: contact
 ---
 
 Location: Newport Beach, California

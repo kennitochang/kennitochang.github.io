@@ -17,7 +17,9 @@
     {% endif %} 
     {% endfor %}
     <li>
-      <a href="/en" {% if page.lang == "en" %}class="active-language"{% endif %}>EN</a>/<a href="/es" {% if page.lang == "es" %}class="active-language"{% endif %}>ES</a>/<a href="/yue" {% if page.lang == "yue" %}class="active-language"{% endif %}>YUE</a>
+    {% for lang in site.data.navigation.languages %}
+    <a href="/{{lang}}" {% if page.lang == "{{lang}}" %}class="active-language"{% endif %}>{{lang}}</a>/
+    {% endfor %}
     </li>
   </ul>
 </nav>
