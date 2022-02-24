@@ -17,7 +17,7 @@ Based on CanCLID's browser extension, I created a browser extension for jyutping
 
 | Tone Number | 1 | 2 | 3 | 4 | 5 | 6 |
 |-------------|---|---|---|---|---|---|
-| Decription  | high level | high rising | mid level | low falling | low rising | low level |
+| Description  | high level | high rising | mid level | low falling | low rising | low level |
 | Tone Mark   | ā | á | a | à | ǎ | ạ |
 
 
@@ -35,7 +35,7 @@ A discussion of Cantonese tones and a rationale for choosing these tone marks is
 
 
 
-## Appendix 1: Cantonese Tones
+## Appendix: Choice of Tone Marks
 Cantonese is generally accepted by linguists to have six tones (seven in some cases, although the "seventh tone" is largely merging into the first tone).
 
 | Tone Number | Description | Yale | Closest Vietnamese Tone\* | Closest Mandarin Tone |
@@ -49,7 +49,6 @@ Cantonese is generally accepted by linguists to have six tones (seven in some ca
 
 \* Hanoi pronunciations. Note that Vietnamese tones' production and perception affects on factors other than pitch contour, such as breathiness and glottalization. For these comparisons, we rely exclusively on pitch contour only. Thus, these comparisons might not accurately represent how speakers of either language might perceive tones from the other language.
 
-## Appendix 2: Rationale for Choice of Tone Marks
 The tone marks I chose were based off of four principles:
 
 - Familiarity and compatibility with existing systems, namely Vietnamese, pinyin, and the Yale romanization with tone marks. This is difficult to define, but tone marks which appear in other systems should produce the same sounds in Cantonese whenever possible.
