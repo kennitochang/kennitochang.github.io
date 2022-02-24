@@ -19,11 +19,12 @@ Based on CanCLID's browser extension, I created a browser extension for jyutping
 |-------------|---|---|---|---|---|---|
 | Tone Mark   | ā | á | a | à | ǎ | ạ |
 
+
+At a small cost in terms of the ability to distinguish tones, tone-marked jyutping reduces the amount of clutter and space between annotated Chinese characters. It provides a more natural reading experience for learning Cantonese and/or jyutping.
+
 | ![A poem annotated with numbered jyutping.](/assets/images/jyutping-number-annotation.png) | ![A poem annotated with marked jyutping.](/assets/images/jyutping-tonemark-annotation.png) |
 |-|-|
 | | |
-
-At a small cost in terms of the ability to distinguish tones, tone-marked jyutping reduces the amount of clutter and space between annotated Chinese characters. It provides a more natural reading experience for learning Cantonese and/or jyutping.
 
 A discussion of Cantonese tones and a rationale for choosing these tone marks is given in the Appendices. In future versions, I hope to allow users to select their own tone marks if they wish.
 
