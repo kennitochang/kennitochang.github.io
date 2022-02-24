@@ -4,44 +4,44 @@ languages:
     language: en
     links: 
       - 
-        lang_ref: bio
+        lang-ref: bio
         title: Bio
         url: /bio
       - 
-        lang_ref: notes
+        lang-ref: notes
         title: Notes
         url: /notes
       - 
-        lang_ref: contact
+        lang-ref: contact
         title: Contact
         url: /contact
   - 
     language: es
     links: 
       - 
-        lang_ref: bio
+        lang-ref: bio
         title: Sobre Mí
         url: /sobre-mi
       - 
-        lang_ref: notes
+        lang-ref: notes
         title: Notas
         url: /notas
       - 
-        lang_ref: contact
+        lang-ref: contact
         title: Contactar
         url: /contactar
   - 
     language: yue
     links: 
       - 
-        lang_ref: bio
+        lang-ref: bio
         title: 關於我
         url: /gwaanjyu-ngo
       - 
-        lang_ref: notes
+        lang-ref: notes
         title: 筆記
         url: /batgei
       - 
-        lang_ref: contact
+        lang-ref: contact
         title: 聯繫
         url: /lyunhai

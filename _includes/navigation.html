@@ -12,7 +12,7 @@
           {% else %} 
             {% assign url = link.url | relative_url %} 
           {% endif %} 
-          <li><a class="page-link" href="/{{page.lang}}{{ url }}" {% if true %}class="active"{% endif %}>{{ link.title }}</a><li>
+          <li><a class="page-link" href="/{{page.lang}}{{ url }}" class="active">{{ link.title }}</a><li>
         {% endfor %} 
       {% endif %} 
     {% endfor %}
