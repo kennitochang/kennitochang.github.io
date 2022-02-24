@@ -27,7 +27,7 @@ At a small cost in terms of the ability to distinguish tones, tone-marked jyutpi
 |-|-|
 | | |
 
-A discussion of Cantonese tones and a rationale for choosing these tone marks is given in the Appendices. In future versions, I hope to allow users to select their own tone marks if they wish.
+A discussion of Cantonese tones and a rationale for choosing these tone marks is given in the Appendix. In future versions of the browser extension, I hope to allow users to select their own tone marks if they wish.
 
 ## Download Link
 - [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/)
