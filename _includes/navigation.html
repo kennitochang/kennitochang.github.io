@@ -2,23 +2,20 @@
 
   {% assign url = page.url | split: "/" %}
 
-  {% for item in site.data.navigation.languages %} 
-  {% if item.language == page.lang %} 
-  {% for link in item.links %} 
-  {% if link.url contains "http" %} 
-  {% assign url = link.url %} 
-  {% else %} 
-  {% assign url = link.url | relative_url %} 
-  {% endif %} 
-  <a class="page-link" href="{{ url }}">{{ link.title }}</a> 
-  {% endfor %} 
-  {% endif %} 
-  {% endfor %}
   <ul>
     <li><a href="/{{page.lang}}/" style="text-decoration:none;" {% if page.url == "/{{page.lang}}/" %}class="active"{% endif %}>&#x259E;</a></li>
-    <li><a href="/{{page.lang}}/bio" {% if url[2] == "bio" %}class="active"{% endif %}>Bio</a></li>
-    <li><a href="/{{page.lang}}/notes" {% if url[2] == "notes" %}class="active"{% endif %}>Notes</a></li>
-    <li><a href="/{{page.lang}}/contact" {% if url[2] == "contact" %}class="active"{% endif %}>Contact</a></li>
+    {% for item in site.data.navigation.languages %} 
+    {% if item.language == page.lang %} 
+    {% for link in item.links %} 
+    {% if link.url contains "http" %} 
+    {% assign url = link.url %} 
+    {% else %} 
+    {% assign url = link.url | relative_url %} 
+    {% endif %} 
+    <li><a class="page-link" href="/{{page.lang}}{{ url }}">{{ link.title }}</a><li>
+    {% endfor %} 
+    {% endif %} 
+    {% endfor %}
     <li>
       <a href="/en" {% if page.lang == "en" %}class="active-language"{% endif %}>EN</a>/<a href="/es" {% if page.lang == "es" %}class="active-language"{% endif %}>ES</a>/<a href="/yue" {% if page.lang == "yue" %}class="active-language"{% endif %}>YUE</a>
     </li>
