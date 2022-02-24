@@ -2,6 +2,9 @@ site: Kenneth Chang
 url: https://kennethcha.ng
 title: Kenneth Chang
 description: Kenneth Chang’s Personal Page
+description_en: Kenneth Chang’s Personal Page
+description_es: Página Personal de Kenneth Chang
+description_yue: Kenneth Chang嘅個人網頁
 
 permalink: pretty
 
@@ -48,59 +51,51 @@ defaults:
     values:
       layout: "post"
 
-  -
-    scope:
+  - scope:
       path: "_main"
     values:
       permalink: /:name
 
-  -
-    scope:
+  - scope:
       path: "assets/images"
     values:
       image: true
 
-  -
-    scope:
+  - scope:
       path: _posts/en
       type: posts
     values:
-      lang: {{site.data.languages.en}}
+      lang: en
       permalink: /en/:year/:month/:day/:slug
-  -
-    scope:
+  - scope:
       path: _posts/es
       type: posts
     values:
-      lang: {{site.data.languages.es}}
+      lang: es
       permalink: /es/:year/:month/:day/:slug
-  -
-    scope:
+  - scope:
       path: _posts/yue
       type: posts
     values:
-      lang: {{site.data.languages.yue}}
+      lang: yue
       permalink: /yue/:year/:month/:day/:slug
 
-  -
-    scope:
+  - scope:
       path: _pages/en
       type: pages
     values:
-      lang: {{site.data.languages.en}}
+      lang: en
       permalink: /en/:name
-  -
-    scope:
+  - scope:
       path: _pages/es
       type: pages
     values:
-      lang: {{site.data.languages.es}}
+      lang: es
       permalink: /es/:name
-  -
-    scope:
+  - scope:
       path: _pages/yue
       type: pages
     values:
-      lang: {{site.data.languages.yue}}
+      lang: yue
       permalink: /yue/:name
 
