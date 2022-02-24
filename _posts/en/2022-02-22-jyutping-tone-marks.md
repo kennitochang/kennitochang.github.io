@@ -19,7 +19,22 @@ As it stands, the Linguistic Society of Hong Kong (see [jyutping.org](https://jy
 
 At a small cost in terms of the ability to distinguish tones, tone-marked jyutping reduces the amount of clutter and space between annotated Chinese characters. It provides a more natural reading experience for learning Cantonese and/or jyutping.
 
-## Cantonese Tones
+
+Based on reasoning which is provided below, I implemented the browser extension using the following system:
+
+ <font size="6"> 
+| Tone Number | 1 | 2 | 3 | 4 | 5 | 6 |
+|-------------|---|---|---|---|---|---|
+| Tone Mark   | ā | á | a | à | ǎ | ạ |
+</font>
+
+
+## Browser Extension
+- [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/)
+
+
+
+## Appendix 1: Cantonese Tones
 Cantonese is generally accepted by linguists to have six tones (seven in some cases, although the "seventh tone" is largely merging into the first tone).
 
 | Tone Number | Description | Yale | Closest Vietnamese Tone\* | Closest Mandarin Tone |
@@ -33,8 +48,7 @@ Cantonese is generally accepted by linguists to have six tones (seven in some ca
 
 \* Hanoi pronunciations. Note that Vietnamese tones are often perceived through vowel phonotation and tone contour, rather than pitch and tone countour as in Cantonese. For these comparisons, we rely exclusively on pitch and tone contour. Thus, these comparisons might not accurately represent how speakers of either language might perceive tones from the other language.
 
-## Choice of Tone Marks
-
+## Appendix 2: Rationale for Choice of Tone Marks
 The tone marks I chose were based off of four principles:
 
 - Familiarity and compatibility with existing systems, namely Vietnamese, pinyin, and the Yale romanization with tone marks. This is difficult to define, but tone marks which appear in other systems should produce the same sounds in Cantonese whenever possible.
@@ -59,14 +73,3 @@ Under the visual distinctiveness criterion, the tilde (ã) is a poor choice due 
 The circumflex (â) is also a poor choice, because in Vietnamese and (rarely) Hanyu Pinyin, it appears over certain vowels to indicate difference in vowel _quality_ rather than tone. The Vietnamese alphabet contains distinct vowels _â_, _ô_, and _ê_, while pinyin contains _ê_ for a small set of words. This could result in confusion to users of these other systems as to what mark indicates tone and which indicates an entirely different vowel.
 
 The only remaining choices are the haček (ǎ) and the grave (à). While arguments could be made for either assignment to tones 4 and 5, I believe the arguments are stronger for having tone 4 = à and 5 = ǎ. For one, a grave (à) accent makes much more sense for a falling tone than it does for a rising tone, and is used for falling tones in all three systems. Secondly, while in most cases the Mandarin tone indicated in pinyin by a haček (ǎ) is closer to the Cantonese low falling tone in many scenarios, it can also be pronounced closer to the low rising tone in other senarios (such as in isolation). Finally, words with the low rising tone are generally etymologically related to Mandarin words which use the haček in pinyin, which could be helpful to speakers of Mandarin.
-
- Based on this train of reasoning, we arrive at the following system:
-
-| 1 | 2 | 3 | 4 | 5 | 6 |
-|---|---|---|---|---|---|
-| ā | á | a | à | ǎ | ạ |
-
-
-## Browser Extension
-- [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/)
-
