@@ -1,22 +1,12 @@
 <nav role="navigation">
 
-    {% assign url = page.url | split: "/" %}
-    {% if url[1] == "yue" %}
-      {% assign lang = "yue" %}
-      {% assign pg = url[2] %}
-    {% elsif url[1] == "es" %}
-      {% assign lang = "yue" %}
-      {% assign pg = url[2] %}
-    {% else %}
-      {% assign lang = "en" %}
-      {% assign pg = url[1] %}
-    {% endif %}
+  {% assign url = page.url | split: "/" %}
 
   <ul>
     <li><a href="/{{lang}}/" style="text-decoration:none;" {% if page.url == "/" %}class="active"{% endif %}>&#x259E;</a></li>
-    <li><a href="/{{lang}}/bio" {% if url[1] == "bio" %}class="active"{% endif %}>Bio</a></li>
-    <li><a href="/{{lang}}/notes" {% if url[1] == "notes" %}class="active"{% endif %}>Notes</a></li>
-    <li><a href="/{{lang}}/contact" {% if url[1] == "contact" %}class="active"{% endif %}>Contact</a></li>
+    <li><a href="/{{lang}}/bio" {% if url[2] == "bio" %}class="active"{% endif %}>Bio</a></li>
+    <li><a href="/{{lang}}/notes" {% if url[2] == "notes" %}class="active"{% endif %}>Notes</a></li>
+    <li><a href="/{{lang}}/contact" {% if url[2] == "contact" %}class="active"{% endif %}>Contact</a></li>
     <li>
       <a href="/en" {% if lang == "en" %}class="active-language"{% endif %}>EN</a>/<a href="/es" {% if lang == "es" %}class="active-language"{% endif %}>ES</a>/<a href="/yue" {% if lang == "yue" %}class="active-langauge"{% endif %}>YUE</a>
     </li>
