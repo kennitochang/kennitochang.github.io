@@ -12,8 +12,7 @@
           {% else %} 
             {% assign url = link.url | relative_url %} 
           {% endif %} 
-          {{page.lang-ref}}
-          {{link.lang-ref}}
+          <li>{{page.lang-ref}}.{{link.lang-ref}}</li>
           <li><a class="page-link" href="/{{page.lang}}{{ url }}" {% if page.lang-ref == link.lang-ref %}class="active"{% endif %}>{{ link.title }}</a><li>
         {% endfor %} 
       {% endif %} 
