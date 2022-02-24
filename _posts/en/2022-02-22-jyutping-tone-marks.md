@@ -54,7 +54,7 @@ The tone marks I chose were based off of four principles:
 - Familiarity and compatibility with existing systems, namely Vietnamese, pinyin, and the Yale romanization with tone marks. This is difficult to define, but tone marks which appear in other systems should produce the same sounds in Cantonese whenever possible.
 - Tone marks that are easy to interpret.
 - Visual distinctness of tone marks.
-- Using [precomposed Unicode characters](https://en.wikipedia.org/wiki/List_of_precomposed_Latin_characters_in_Unicode) for tones that appear in lexical words. Generally, we need tone marks that are available for all vowels _aeiou_ and for the low tones (4-6) plus the changed tone (2) on the letter _n_. 
+- Using [precomposed Unicode characters](https://en.wikipedia.org/wiki/List_of_precomposed_Latin_characters_in_Unicode) for tones that appear in lexical words. Generally, we need tone marks that are available for all vowels _aeiou_ and for the low tones (4-6) plus the changed tone (2) on the letter _n_. The remaining tone marks for syllabic _m_ and _n_ are desirable but not crucial for distinguishing most shades meaning (unfortunately the support for diacritics on syllabic _m_ is quite poor).
 
 For tones 1-3 and 6, it is easy to satisfy all of these criteria.
 
