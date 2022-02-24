@@ -17,6 +17,7 @@ Based on CanCLID's browser extension, I created a browser extension for jyutping
 
 | Tone Number | 1 | 2 | 3 | 4 | 5 | 6 |
 |-------------|---|---|---|---|---|---|
+| Decription  | high level | high rising | mid level | low falling | low rising | low level |
 | Tone Mark   | ā | á | a | à | ǎ | ạ |
 
 
