@@ -17,7 +17,7 @@ As it stands, the Linguistic Society of Hong Kong (see [jyutping.org](https://jy
 |-|-|
 | | |
 
-Without sacrificing readability, tone-marked jyutping reduces the amount of clutter and space between Chinese characters. It provides a more natural reading experience for anyone wishing to study jyutping and/or Cantonese.
+For a small cost in readibility, tone-marked jyutping reduces the amount of clutter and space between annotated Chinese characters. It provides a more natural reading experience for anyone wishing to study jyutping and/or Cantonese.
 
 ## Cantonese Tones
 Cantonese is generally accepted by linguists to have six tones (seven in some cases, although the "seventh tone" is largely merging into the first tone).
