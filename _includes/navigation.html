@@ -17,8 +17,8 @@
     {% endif %} 
     {% endfor %}
     <li>
-    {% for lang in site.data.navigation.languages %}
-    <a href="/{{lang}}" {% if page.lang == "{{lang}}" %}class="active-language"{% endif %}>{{lang}}</a>/
+    {% for item in site.data.navigation.languages %}
+    <a href="/{{item.language}}" {% if page.lang == "{{item.language}}" %}class="active-language"{% endif %}>{{item.language}}</a>/
     {% endfor %}
     </li>
   </ul>
