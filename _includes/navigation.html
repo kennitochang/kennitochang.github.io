@@ -24,8 +24,8 @@
       {% endif %}
       {% if posts.size >= 1 %}
         /<a href="{{posts[0].url}}" {% if page.lang == item.language %}class="active-language"{% endif %}>{{item.language}}</a>
-      {% else %}
-        /{{item.language}}
+        {% else %}
+        /<a class="inactive-link">{{item.language}}</a>
       {% endif %}
     {% endfor %}
 

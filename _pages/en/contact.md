@@ -8,4 +8,4 @@ Location: Newport Beach, California
 
 E-mail: not at kennethcha dot ng
 
-Instagram: kennitochang
+Instagram/GitHub: kennitochang
