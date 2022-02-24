@@ -44,7 +44,7 @@ Cantonese is generally accepted by linguists to have six tones (seven in some ca
 | 5           | low rising  | áh   | X                         | X                     |
 | 6           | low level   | ah   | ạ                         | X                     |
 
-\* Hanoi pronunciations. Note that Vietnamese tones are often perceived through vowel phonotation and tone contour, rather than pitch and tone countour as in Cantonese. For these comparisons, we rely exclusively on pitch and tone contour. Thus, these comparisons might not accurately represent how speakers of either language might perceive tones from the other language.
+\* Hanoi pronunciations. Note that Vietnamese tones' production and perception affects on factors other than pitch contour, such as breathiness and glottalization. For these comparisons, we rely exclusively on pitch contour only. Thus, these comparisons might not accurately represent how speakers of either language might perceive tones from the other language.
 
 ## Appendix 2: Rationale for Choice of Tone Marks
 The tone marks I chose were based off of four principles:
