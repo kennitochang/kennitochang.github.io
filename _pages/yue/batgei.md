@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Notes
+title:  筆記
 lang-ref: notes
 ---
 

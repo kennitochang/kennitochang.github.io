@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bio
+title: 關於我
 lang-ref: bio
 ---
 

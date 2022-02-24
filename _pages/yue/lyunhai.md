@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: 聯繫
 lang-ref: contact
 ---
 
