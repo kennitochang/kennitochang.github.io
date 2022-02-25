@@ -4,6 +4,8 @@ title: Annotating Text with Tone-Marked Jyutping
 lang-ref: jytuping-tones-marks
 ---
 
+_All views are my own._
+
 I recently came across CanCLID's [Inject Jyutping](https://github.com/CanCLID/inject-jyutping) browser extension. The basic idea is to annotate Chinese characters with the associated Cantonese pronunciation in [jyutping](https://en.wikipedia.org/wiki/Jyutping), the _de facto_ standard romanization for Cantonese in academia and education. However, I unfortunately found it difficult to use due to an often-cited issue with Jyutping, which is that it uses numbers to represent tones, making it appear cluttered and sometimes difficult to interpret. 
 
 
@@ -36,7 +38,7 @@ A discussion of Cantonese tones and a rationale for choosing these tone marks is
 
 
 ## Appendix: Choice of Tone Marks
-Cantonese is generally accepted by linguists to have six tones (seven in some cases, although the "seventh tone" is largely merging into the first tone).
+Cantonese is generally accepted by linguists to have six tones (seven in some cases, although the "seventh tone" is largely merging into the first tone). I have included the commonly accepted descriptions of each tone with similar tones from (Hanoi) Vietnamese and Mandarin. These groupings are somewhat subjective.
 
 | Tone Number | Description | Yale | Closest Vietnamese Tone\* | Closest Mandarin Tone |
 |-------------|-------------|------|---------------------------|-----------------------|
@@ -47,7 +49,7 @@ Cantonese is generally accepted by linguists to have six tones (seven in some ca
 | 5           | low rising  | áh   | X                         | X                     |
 | 6           | low level   | ah   | ạ (nặng)                  | X                     |
 
-<small>\* Hanoi pronunciations. Note that Vietnamese tones' production and perception depends on both pitch and [phonation](https://en.wikipedia.org/wiki/Phonation). For these comparisons, we rely on pitch contour only, as phonation is a negligible factor in Cantonese tones. Thus, these comparisons might not accurately represent how speakers of Vietnamese and Cantonese might perceive tones from the other language.</small>
+<small>\* Note that Vietnamese tones' production and perception depends on both pitch and [phonation](https://en.wikipedia.org/wiki/Phonation). For these comparisons, we rely on pitch contour only, as phonation is a negligible factor in Cantonese tones. Thus, these comparisons might not accurately represent how speakers of Vietnamese and Cantonese might perceive tones from the other language.</small>
 
 The tone marks I chose were based off of four principles:
 
