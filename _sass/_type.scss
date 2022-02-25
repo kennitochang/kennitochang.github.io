@@ -33,13 +33,11 @@ a.active {
     background: black;
     padding: 0.5rem;
     color: white;
-    font-weight: bold;
 }
 
 a.inactive-language {
     background: white; 
     color: black;
-    font-weight: bold;
     padding: 0.2rem;
     margin: 0;
 }
@@ -47,16 +45,15 @@ a.inactive-language {
 a.active-language {
     background: black;
     color: white;
-    font-weight: bold;
     padding: 0.2rem;
     margin: 0;
 }
 
 a.unavailable-language {
     background: white;
-    color: gainsboro;
-    font-weight: bold;
+    color: black;
     padding: 0.2rem;
+    font-weight: normal
     margin: 0;
 }
 
