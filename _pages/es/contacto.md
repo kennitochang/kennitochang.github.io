@@ -4,7 +4,7 @@ title: Contacto
 lang-ref: contact
 ---
 
-Ubicación: Newport Beach, California
+Ubicación: Huntington Beach, California
 
 Correo Electrónico: not arroba kennethcha punto ng
 

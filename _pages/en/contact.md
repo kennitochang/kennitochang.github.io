@@ -4,7 +4,7 @@ title: Contact
 lang-ref: contact
 ---
 
-Location: Newport Beach, California
+Location: Huntington Beach, California
 
 E-mail: not at kennethcha dot ng
 
