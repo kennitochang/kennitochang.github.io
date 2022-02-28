@@ -22,7 +22,7 @@ Based on CanCLID's browser extension, I created a browser extension for jyutping
 | Description  | high level | high rising | mid level | low falling | low rising | low level |
 | Tone Mark   | <span style="font-size:250%;">ō</span> | <span style="font-size:250%;">ó</span> | <span style="font-size:250%;">o</span> | <span style="font-size:250%;">ò</span> | <span style="font-size:250%;">ǒ</span> | <span style="font-size:250%;">ọ</span> |
 | Example   | 一 jāt | 碗 wún | 半 bun | 牛 ngàu | 腩 nǎam | 飯 fạan |
-| Visualization   | ![](/assets/images/jat_tone.png) | ![](/assets/images/bun_tone.png) | ![](/assets/images/ngau_tone.png) | ![](/assets/images/naam_tone.png) | ![](/assets/images/faan_tone.png) |
+| Visualization   | ![](/assets/images/jat_tone.png) | ![](/assets/images/wun_tone.png) | ![](/assets/images/bun_tone.png) | ![](/assets/images/ngau_tone.png) | ![](/assets/images/naam_tone.png) | ![](/assets/images/faan_tone.png) |
 
 The six tones of Cantonese can be remembered using the mnemonic 一碗半牛腩飯 (one and a half bowls of beef brisket rice).
 
