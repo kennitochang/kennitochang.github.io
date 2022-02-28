@@ -4,7 +4,7 @@
  <title>Kenneth Chang</title>
  <link href="https://kennethcha.ng/atom.xml" rel="self"/>
  <link href="https://kennethcha.ng/"/>
- <updated>2022-02-27T00:45:00-05:00</updated>
+ <updated>2022-02-27T12:11:33-05:00</updated>
  <id>https://kennethcha.ng</id>
  <author>
    <name></name>
@@ -53,15 +53,35 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Tone Mark&lt;/td&gt;
-      &lt;td&gt;ā&lt;/td&gt;
-      &lt;td&gt;á&lt;/td&gt;
-      &lt;td&gt;a&lt;/td&gt;
-      &lt;td&gt;à&lt;/td&gt;
-      &lt;td&gt;ǎ&lt;/td&gt;
-      &lt;td&gt;ạ&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;font-size:250%;&quot;&gt;ō&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;font-size:250%;&quot;&gt;ó&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;font-size:250%;&quot;&gt;o&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;font-size:250%;&quot;&gt;ò&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;font-size:250%;&quot;&gt;ǒ&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;font-size:250%;&quot;&gt;ọ&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Example&lt;/td&gt;
+      &lt;td&gt;一 jāt&lt;/td&gt;
+      &lt;td&gt;碗 wún&lt;/td&gt;
+      &lt;td&gt;半 bun&lt;/td&gt;
+      &lt;td&gt;牛 ngàu&lt;/td&gt;
+      &lt;td&gt;腩 nǎam&lt;/td&gt;
+      &lt;td&gt;飯 fạan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Visualization&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/jat_tone.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/bun_tone.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/ngau_tone.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/naam_tone.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/faan_tone.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;The six tones of Cantonese can be remembered using the mnemonic 一碗半牛腩飯 (one and a half bowls of beef brisket rice).&lt;/p&gt;
 
 &lt;p&gt;At a small cost in terms of the ability to distinguish tones visually, tone-marked jyutping reduces the amount of clutter and space between annotated Chinese characters. It provides a more natural reading experience for learning Cantonese and/or jyutping.&lt;/p&gt;
 

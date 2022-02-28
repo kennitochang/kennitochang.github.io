@@ -1,0 +1,186 @@
+I"�+<p><em>All views are my own.</em></p>
+
+<p>I recently came across CanCLID’s <a href="https://github.com/CanCLID/inject-jyutping">Inject Jyutping</a> browser extension. The basic idea is to annotate Chinese characters with the associated Cantonese pronunciation in <a href="https://en.wikipedia.org/wiki/Jyutping">jyutping</a>, the <em>de facto</em> standard romanization for Cantonese in academia and education devised by the Linguistic Society of Hong Kong. However, I unfortunately found it difficult to use due to an often-cited issue with Jyutping, which is that it uses numbers to represent tones, making it appear cluttered and sometimes difficult to interpret.</p>
+
+<p>One alternative to represent tones using tone marks, also known diacritics, small markings attached to existing Roman letters. This is the approach used by the <a href="https://en.wikipedia.org/wiki/Vietnamese_alphabet">Vietnamese alphabet</a> and also to represent tones in Mandarin <a href="https://en.wikipedia.org/wiki/Pinyin">pinyin</a>. Tone marks have the benefit of condensing text and providing visual and mnemonic cues guiding the reader’s pronunciation of words. These benefits are well-appreciated by users of both Vietnamese and pinyin.</p>
+
+<p>As it stands, the Linguistic Society of Hong Kong (see <a href="https://jyutping.org">jyutping.org</a>) is yet to release an official proposal for adding tone marks. In my current study of Cantonese, I have adopted a set of my own tone marks for personal use. I am certainly <a href="https://www.reddit.com/r/Cantonese/comments/7r4y5b/random_idea_vietnamese_tone_marks">not</a> <a href="http://www.cantonese.sheik.co.uk/phorum/read.php?1,127274,131154">the</a> <a href="https://www.amazon.com/Cantonese-Everyone-English-Chinese/dp/9620718615">only</a> <a href="https://www.facebook.com/CantoneseABC">person</a> to have done so. Here, I provide an example of how tone marks might be useful in a browser extension for annotating text. The system of tone marks I employed is not official by any means, and I hope that in publishing this extension I can help spur discussion around the possible introduction of tone marks to jyutping.</p>
+
+<h2 id="comparison-of-numbered-vs-marked-jyutping-annotation">Comparison of “Numbered” vs “Marked” Jyutping annotation</h2>
+
+<p>Based on CanCLID’s browser extension, I created a browser extension for jyutping annotation that uses the following system:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tone Number</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Description</td>
+      <td>high level</td>
+      <td>high rising</td>
+      <td>mid level</td>
+      <td>low falling</td>
+      <td>low rising</td>
+      <td>low level</td>
+    </tr>
+    <tr>
+      <td>Tone Mark</td>
+      <td>ā</td>
+      <td>á</td>
+      <td>a</td>
+      <td>à</td>
+      <td>ǎ</td>
+      <td>ạ</td>
+    </tr>
+    <tr>
+      <td>Example</td>
+      <td>一 jāt</td>
+      <td>碗 wún</td>
+      <td>半 bun</td>
+      <td>牛 ngàu</td>
+      <td>腩 nǎam</td>
+      <td>飯 fạan</td>
+    </tr>
+    <tr>
+      <td>Visualization</td>
+      <td><img src="/assets/images/jat_tone.png" alt="" /></td>
+      <td><img src="/assets/images/bun_tone.png" alt="" /></td>
+      <td><img src="/assets/images/ngau_tone.png" alt="" /></td>
+      <td><img src="/assets/images/naam_tone.png" alt="" /></td>
+      <td><img src="/assets/images/faan_tone.png" alt="" /></td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The six tones of Cantonese can be remembered using the mnemonic 一碗半牛腩飯 (one and a half bowls of beef brisket rice).</p>
+
+<p>At a small cost in terms of the ability to distinguish tones visually, tone-marked jyutping reduces the amount of clutter and space between annotated Chinese characters. It provides a more natural reading experience for learning Cantonese and/or jyutping.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><img src="/assets/images/jyutping-number-annotation.png" alt="A poem annotated with numbered jyutping." /></th>
+      <th><img src="/assets/images/jyutping-tonemark-annotation.png" alt="A poem annotated with marked jyutping." /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>A discussion of Cantonese tones and a rationale for choosing these tone marks is given in the Appendix. In future versions of the browser extension, I hope to allow users to select their own tone marks if they wish.</p>
+
+<h2 id="download-link">Download Link</h2>
+<ul>
+  <li><a href="https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/">Download for Firefox</a></li>
+  <li>Download for Chrome (pending review)</li>
+</ul>
+
+<h2 id="appendix-choice-of-tone-marks">Appendix: Choice of Tone Marks</h2>
+<p>Cantonese is generally accepted by linguists to have six tones (seven in some cases, although the “seventh tone” is largely merging into the first tone). I have included the commonly accepted descriptions of each tone with similar tones from (Hanoi) Vietnamese and Mandarin. These groupings are somewhat subjective.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tone Number</th>
+      <th>Description</th>
+      <th>Yale</th>
+      <th>Closest Vietnamese Tone*</th>
+      <th>Closest Mandarin Tone</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>high level</td>
+      <td>ā</td>
+      <td>X</td>
+      <td>ā (T1)</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>high rising</td>
+      <td>á</td>
+      <td>á (sắc)</td>
+      <td>á (T2)</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>mid level</td>
+      <td>a</td>
+      <td>a (ngang)</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>low falling</td>
+      <td>àh</td>
+      <td>à (huyền), ả (hỏi)</td>
+      <td>ǎ (T3)</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>low rising</td>
+      <td>áh</td>
+      <td>X</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>low level</td>
+      <td>ah</td>
+      <td>ạ (nặng)</td>
+      <td>X</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><small>* Note that Vietnamese tones’ production and perception depends on both pitch and <a href="https://en.wikipedia.org/wiki/Phonation">phonation</a>. For these comparisons, we rely on pitch contour only, as phonation is a negligible factor in Cantonese tones. Thus, these comparisons might not accurately represent how speakers of Vietnamese and Cantonese might perceive tones from the other language.</small></p>
+
+<p>The tone marks I chose were based off of four principles:</p>
+
+<ul>
+  <li>Familiarity and compatibility with existing systems, namely Vietnamese, pinyin, and the Yale romanization with tone marks. This is difficult to define, but tone marks which appear in other systems should produce the same sounds in Cantonese whenever possible.</li>
+  <li>Tone marks that are easy to interpret.</li>
+  <li>Visual distinctness of tone marks.</li>
+  <li>Using <a href="https://en.wikipedia.org/wiki/List_of_precomposed_Latin_characters_in_Unicode">precomposed Unicode characters</a> for tones that appear in lexical words. Generally, we need tone marks that are available for all vowels <em>aeiou</em> and for the low tones (4-6) plus the changed tone (2) on the letter <em>n</em>. The remaining tone marks for syllabic <em>m</em> and <em>n</em> are desirable but not crucial for distinguishing most shades meaning (unfortunately the support for diacritics on syllabic <em>m</em> is quite poor).</li>
+</ul>
+
+<p>For tones 1-3 and 6, it is easy to satisfy all of these criteria.</p>
+
+<ol>
+  <li>
+    <p>The macron (ā) is used by the Yale romanization and pinyin for a high level tone, and it does not appear in Vietnamese (which has no high level tone of the same height as that of Cantonese), and is thus a natural choice for the first tone.</p>
+  </li>
+  <li>
+    <p>The acute accent (á) is used universally by all three systems for a high rising tone, and is thus natural for the second tone. The mark visually resembles a rising tone.</p>
+  </li>
+  <li>
+    <p>For the third tone, Yale and Vietnamese both use an unmarked vowel to represent a mid-level tone, and Mandarin uses it for a neutral tone. Cantonese does not have a neutral tone, although words with the third tone are often used similar to those in Mandarin with a neutral tone (e.g. for the possessive marker 嘅, equivalent to 的, and a high percentage of final particles). Thus, an unmarked syllable is the natural choice.</p>
+  </li>
+  <li>
+    <p>Neither pinyin nor Yale has an equivalent tone mark for the low-level tone (equivalent to tone 6 - Yale uses the letter <em>h</em> to indicate this, and Mandarin does not have an equivalent tone). Vietnamese has a glottalized tone with a similar contour, for which it uses a dot below (ạ). Vietnamese words with this tone are generally etymologically related to Cantonese words with tone 6, making this tone mark a natural choice for tone 6. Visually, a dot below can be thought of as the antithesis to the macron above (ā), as indicating a downward shift in pitch rather than an upward shift.</p>
+  </li>
+</ol>
+
+<p>The remaining two tones (4 and 5) pose more of a quandary, as the closest tones in the other systems are more disparate. Based on the criteria of emphasizing precomposed Unicode characters, we only have a few options, namely the haček (ǎ), grave (à), and tilde (ã) accents. We can also consider the circumflex (â), which has appeared in other proposals, since although there is no precomposed character with <em>n</em>, it is still possible to type an <em>n</em> with a circumflex easily using the ABC-Extended keyboard on Mac OS.</p>
+
+<p>Under the visual distinctiveness criterion, the tilde (ã) is a poor choice due to its strong visual similarity with the macron (ā) in many typefaces.</p>
+
+<p>The circumflex (â) is also a poor choice, because in Vietnamese and (rarely) Hanyu Pinyin, it appears over certain vowels to indicate difference in vowel <em>quality</em> rather than tone. The Vietnamese alphabet contains distinct vowels <em>â</em>, <em>ô</em>, and <em>ê</em>, while pinyin contains <em>ê</em> for a small set of words. This could result in confusion to users of these other systems as to what marks indicate tone and what marks indicate an entirely different vowel.</p>
+
+<p>The only remaining choices are the haček (ǎ) and the grave (à). While arguments could be made for either assignment to tones 4 and 5, I believe the arguments are stronger for having tone 4 = à and 5 = ǎ. For one, a grave (à) accent makes much more sense for a falling tone than it does for a rising tone, and is used for falling tones in all three systems. Secondly, while in most cases the Mandarin tone indicated in pinyin by a haček (ǎ) is closer to the Cantonese low falling tone in many scenarios, it can also be pronounced closer to the low rising tone in other senarios (such as in isolation). Finally, words with the low rising tone are generally etymologically related to Mandarin words which use the haček in pinyin, which could be helpful to speakers of Mandarin.</p>
+:ET
