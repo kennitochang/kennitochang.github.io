@@ -13,6 +13,8 @@ One alternative to represent tones using tone marks, also known diacritics, smal
 
 As it stands, the Linguistic Society of Hong Kong (see [jyutping.org](https://jyutping.org)) is yet to release an official proposal for adding tone marks. In my current study of Cantonese, I have adopted a set of my own tone marks for personal use. I am certainly [not](https://www.reddit.com/r/Cantonese/comments/7r4y5b/random_idea_vietnamese_tone_marks) [the](http://www.cantonese.sheik.co.uk/phorum/read.php?1,127274,131154) [only](https://www.amazon.com/Cantonese-Everyone-English-Chinese/dp/9620718615) [person](https://www.facebook.com/CantoneseABC) to have done so. Here, I provide an example of how tone marks might be useful in a browser extension for annotating text. The system of tone marks I employed is not official by any means, and I hope that in publishing this extension I can help spur discussion around the possible introduction of tone marks to jyutping.
 
+The six tones of Cantonese can be remembered using the mnemonic 一碗半牛腩飯 (one and a half bowls of beef brisket rice). For further discussion of Cantonese tones and how to distinguish them, see [here](https://jyutping.org/docs/tone/).
+
 ## Inject Jyutping with Diacritics
 
 Based on CanCLID's browser extension, I created a new browser extension for jyutping annotation that uses the following system of tone marks:
@@ -25,7 +27,7 @@ Based on CanCLID's browser extension, I created a new browser extension for jyut
 | Jyutping with Diacritics  | jāt | wún | bun | ngàu | nǎam | fạan |
 | Visualization   | ![](/assets/images/jat_tone.png) | ![](/assets/images/wun_tone.png) | ![](/assets/images/bun_tone.png) | ![](/assets/images/ngau_tone.png) | ![](/assets/images/naam_tone.png) | ![](/assets/images/faan_tone.png) |
 
-The six tones of Cantonese can be remembered using the mnemonic 一碗半牛腩飯 (one and a half bowls of beef brisket rice). For further discussion of Cantonese tones and how to distinguish them, see [here](https://jyutping.org/docs/tone/).
+I chose the tone marks above based on analogy with Hanyu Pinyin, Vietnamese, and Yale romanization, with an eye towards Unicode support. In future versions of the browser extension, I hope to allow users to select their own tone marks if they wish.
 
 At a small cost in terms of the ability to distinguish tones visually, tone-marked jyutping reduces the amount of clutter and space between annotated Chinese characters. It provides a more compact reading experience for learning Cantonese and/or jyutping.
 
@@ -33,9 +35,6 @@ At a small cost in terms of the ability to distinguish tones visually, tone-mark
 ![A poem annotated with numbered jyutping.](/assets/images/jyutping-number-annotation.png)
 ### Annotation using jyutping with diacritics
 ![A poem annotated with marked jyutping.](/assets/images/jyutping-tonemark-annotation.png)
-
-The tone marks were chosen based on analogy with Hanyu Pinyin, Vietnamese, and Yale romanization, with an eye towards Unicode support. For a further explanation of Cantonese tones, see [here](https://jyutping.org/docs/tone/). In future versions of the browser extension, I hope to allow users to select their own tone marks if they wish.
-
 ## Download Link
 - [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/)
 - Download for Chrome (pending review)
