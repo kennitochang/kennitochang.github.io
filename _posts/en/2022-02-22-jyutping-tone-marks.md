@@ -33,7 +33,7 @@ At a small cost in terms of the ability to distinguish tones visually, tone-mark
 |-|-|
 | | |
 
-The tone marks were chosen based on analogy with Hanyu Pinyin, Vietnamese, and Yale romanization, with an eye towards Unicode support. In future versions of the browser extension, I hope to allow users to select their own tone marks if they wish.
+The tone marks were chosen based on analogy with Hanyu Pinyin, Vietnamese, and Yale romanization, with an eye towards Unicode support. For a further explanation of Cantonese tones, see [here](https://jyutping.org/docs/tone/). In future versions of the browser extension, I hope to allow users to select their own tone marks if they wish.
 
 ## Download Link
 - [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/)
