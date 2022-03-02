@@ -26,7 +26,6 @@ Based on CanCLID's browser extension, I created a new browser extension for jyut
 | Example   | <span style="font-size:250%;">一</span> | <span style="font-size:250%;">碗</span> | <span style="font-size:250%;">半</span> | <span style="font-size:250%;">牛</span> | <span style="font-size:250%;">腩</span> | <span style="font-size:250%;">飯</span> |
 | Jyutping   | jat1 | wun2 | bun | ngau4 | naam5 | faan6 |
 | Jyutping with Diacritics  | jāt | wún | bun | ngàu | nǎam | fạan |
-| Mnemonic Image  | ![](/assets/images/jat_tone.png) | ![](/assets/images/wun_tone.png) | ![](/assets/images/bun_tone.png) | ![](/assets/images/ngau_tone.png) | ![](/assets/images/naam_tone.png) | ![](/assets/images/faan_tone.png) |
 
 I chose the tone marks above based on analogy with Hanyu Pinyin, Vietnamese, and Yale romanization, with an eye towards Unicode support. In future versions of the browser extension, I hope to allow users to select their own tone marks if they wish.
 
