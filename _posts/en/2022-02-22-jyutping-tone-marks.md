@@ -25,8 +25,7 @@ Based on CanCLID's browser extension, I created a new browser extension for jyut
 | Jyutping with Diacritics  | jāt | wún | bun | ngàu | nǎam | fạan |
 | Visualization   | ![](/assets/images/jat_tone.png) | ![](/assets/images/wun_tone.png) | ![](/assets/images/bun_tone.png) | ![](/assets/images/ngau_tone.png) | ![](/assets/images/naam_tone.png) | ![](/assets/images/faan_tone.png) |
 
-The six tones of Cantonese can be remembered using the mnemonic 一碗半牛腩飯 (one and a half bowls of beef brisket rice).
-
+The six tones of Cantonese can be remembered using the mnemonic 一碗半牛腩飯 (one and a half bowls of beef brisket rice). For further discussion of Cantonese tones and how to distinguish them, see [here](https://jyutping.org/docs/tone/).
 
 At a small cost in terms of the ability to distinguish tones visually, tone-marked jyutping reduces the amount of clutter and space between annotated Chinese characters. It provides a more compact reading experience for learning Cantonese and/or jyutping.
 
