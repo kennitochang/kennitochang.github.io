@@ -12,7 +12,7 @@ One alternative to numbered tones is representing tones using tone marks (aka di
 
 As it stands, the Linguistic Society of Hong Kong (see [jyutping.org](https://jyutping.org)) is yet to release an official proposal for adding tone marks. As a result, I have adopted a set of my own tone marks for personal use. I am certainly [not](https://www.reddit.com/r/Cantonese/comments/7r4y5b/random_idea_vietnamese_tone_marks) [the](http://www.cantonese.sheik.co.uk/phorum/read.php?1,127274,131154) [only](https://www.amazon.com/Cantonese-Everyone-English-Chinese/dp/9620718615) [person](https://www.facebook.com/CantoneseABC) to have done so.
 
-Here, I provide an example of how tone marks might be useful in a browser extension for annotating text. The system of tone marks I employed is not official by any means, and I hope that in publishing this extension I can help spur discussion around the future introduction of tone marks to jyutping.
+Here, I provide an example of how a system of tone marks in jyutping might be useful in a browser extension for annotating text. The system of tone marks I employed is not official by any means, and I hope that in publishing this extension I can help spur discussion around the future introduction of tone marks to jyutping.
 
 The six tones of Cantonese can be remembered using the mnemonic 一碗半牛腩飯 (one and a half bowls of beef brisket rice). For practice distinguishing the six tones, see [here](https://jyutping.org/en/docs/tone/).
 
