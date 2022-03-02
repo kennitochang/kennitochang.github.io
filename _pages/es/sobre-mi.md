@@ -4,4 +4,6 @@ title: Sobre Mí
 lang-ref: bio
 ---
 
-Nací y crecí en Huntington Beach, CA. Crecí en un hogar peruano-estadounidense hablando inglés y español. Tengo ascendencia cantonesa (tusán) por parte de mi madre y he esforzado en aprender y promover el idioma cantonés desde 2016. Actualmente trabajo como ingeniero de software para Google Cloud.
+Actualmente trabajo como ingeniero de software para Google Cloud.
+
+Soy peruano-estadounidense, originalmente de Huntington Beach, California. En mi niñez, aprendí en inglés y castellano. Tengo ascendencia cantonesa por parte de mi madre. Desde 2016, he estado aprendiendo activamente cantonés escrito y hablado.
