@@ -6,7 +6,7 @@ lang-ref: jytuping-tones-marks
 
 _All views are my own._
 
-I recently came across CanCLID's [Inject Jyutping](https://github.com/CanCLID/inject-jyutping) browser extension, which annotates Chinese characters with the associated Cantonese pronunciation in [jyutping](https://en.wikipedia.org/wiki/Jyutping), the _de facto_ standard romanization for Cantonese in academia and education. However, I unfortunately the extension difficult to use due to a much-debated feature of Jyutping, which is that it uses numbers to represent tones. In this case, the numbers make annotations appear cluttered. 
+I recently came across CanCLID's [Inject Jyutping](https://github.com/CanCLID/inject-jyutping) browser extension, which annotates Chinese characters with the associated Cantonese pronunciation in [jyutping](https://en.wikipedia.org/wiki/Jyutping), the _de facto_ standard romanization for Cantonese in academia and education. However, I found the extension hard to use due to a much-debated feature of Jyutping, which is that it uses numbers to represent tones. In this case, the numbers made annotations appear cluttered. 
 
 One alternative to numbered tones is representing tones using tone marks (aka diacritics) as in [Vietnamese](https://en.wikipedia.org/wiki/Vietnamese_alphabet) and Mandarin Chinese [pinyin](https://en.wikipedia.org/wiki/Pinyin). Tone marks have the benefit of producing more condensed text and providing visual and mnemonic cues guiding the reader's pronunciation of words. These benefits are well-appreciated by users of both Vietnamese and pinyin.
 
