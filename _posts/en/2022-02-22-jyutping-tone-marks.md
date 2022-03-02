@@ -31,10 +31,9 @@ I chose the tone marks above based on analogy with Hanyu Pinyin, Vietnamese, and
 
 At a small cost in terms of the ability to distinguish tones visually, tone-marked jyutping reduces the amount of clutter and space between annotated Chinese characters. It provides a more compact reading experience for learning Cantonese and/or jyutping.
 
-### Annotation using (numbered) jyutping
-![A poem annotated with numbered jyutping.](/assets/images/jyutping-number-annotation.png)
-### Annotation using jyutping with diacritics
+### Example of annotation using tone-marked jyutping
 ![A poem annotated with marked jyutping.](/assets/images/jyutping-tonemark-annotation.png)
 ## Download Link
+- [GitHub Repo](https://github.com/kennitochang/inject-jyutping)
 - [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/)
 - Download for Chrome (pending review)
