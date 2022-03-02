@@ -20,7 +20,7 @@ The six tones of Cantonese can be remembered using the mnemonic 一碗半牛腩�
 
 Based on CanCLID's browser extension, I created a new browser extension for jyutping annotation that uses the following system of tone marks:
 
-| Tone | 1 (¯) | 2 (´) | 3 ( ) | 4 (`) | 5 (ˇ) | 6 (.) |
+| Tone | 1¯ | 2´ | 3   | 4` | 5ˇ | 6. |
 |-------------|---|---|---|---|---|---|
 | Description  | high level | high rising | mid level | low falling | low rising | low level |
 | Example   | <span style="font-size:250%;">一</span> | <span style="font-size:250%;">碗</span> | <span style="font-size:250%;">半</span> | <span style="font-size:250%;">牛</span> | <span style="font-size:250%;">腩</span> | <span style="font-size:250%;">飯</span> |
