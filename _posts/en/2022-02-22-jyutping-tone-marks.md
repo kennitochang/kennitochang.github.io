@@ -33,49 +33,8 @@ At a small cost in terms of the ability to distinguish tones visually, tone-mark
 |-|-|
 | | |
 
-A discussion of Cantonese tones and a rationale for choosing these tone marks is given in the Appendix. In future versions of the browser extension, I hope to allow users to select their own tone marks if they wish.
+The tone marks were chosen based on analogy with Hanyu Pinyin, Vietnamese, and Yale romanization, with an eye towards Unicode support. In future versions of the browser extension, I hope to allow users to select their own tone marks if they wish.
 
 ## Download Link
 - [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/)
 - Download for Chrome (pending review)
-
-
-
-## Appendix: Choice of Tone Marks
-Cantonese is generally accepted by linguists to have six tones (seven in some cases, although the "seventh tone" is largely merging into the first tone). I have included the commonly accepted descriptions of each tone with similar tones from (Hanoi) Vietnamese and Mandarin. These groupings are somewhat subjective.
-
-| Tone Number | Description | Yale | Closest Vietnamese Tone\* | Closest Mandarin Tone |
-|-------------|-------------|------|---------------------------|-----------------------|
-| 1           | high level  | ā    | X                         | ā (T1)                |
-| 2           | high rising | á    | á (sắc)                   | á (T2)                |
-| 3           | mid level   | a    | a (ngang)                 | X                     |
-| 4           | low falling | àh   | à (huyền), ả (hỏi)        | ǎ (T3)                |
-| 5           | low rising  | áh   | X                         | X                     |
-| 6           | low level   | ah   | ạ (nặng)                  | X                     |
-
-<small>\* Note that Vietnamese tones' production and perception depends on both pitch and [phonation](https://en.wikipedia.org/wiki/Phonation). For these comparisons, we rely on pitch contour only, as phonation is a negligible factor in Cantonese tones. Thus, these comparisons might not accurately represent how speakers of Vietnamese and Cantonese might perceive tones from the other language.</small>
-
-The tone marks I chose were based off of four principles:
-
-- Familiarity and compatibility with existing systems, namely Vietnamese, pinyin, and the Yale romanization with tone marks. This is difficult to define, but tone marks which appear in other systems should produce the same sounds in Cantonese whenever possible.
-- Tone marks that are easy to interpret.
-- Visual distinctness of tone marks.
-- Using [precomposed Unicode characters](https://en.wikipedia.org/wiki/List_of_precomposed_Latin_characters_in_Unicode) for tones that appear in lexical words. Generally, we need tone marks that are available for all vowels _aeiou_ and for the low tones (4-6) plus the changed tone (2) on the letter _n_. The remaining tone marks for syllabic _m_ and _n_ are desirable but not crucial for distinguishing most shades meaning (unfortunately the support for diacritics on syllabic _m_ is quite poor).
-
-For tones 1-3 and 6, it is easy to satisfy all of these criteria.
-
-1. The macron (ā) is used by the Yale romanization and pinyin for a high level tone, and it does not appear in Vietnamese (which has no high level tone of the same height as that of Cantonese), and is thus a natural choice for the first tone.
-
-2. The acute accent (á) is used universally by all three systems for a high rising tone, and is thus natural for the second tone. The mark visually resembles a rising tone.
-
-3. For the third tone, Yale and Vietnamese both use an unmarked vowel to represent a mid-level tone, and Mandarin uses it for a neutral tone. Cantonese does not have a neutral tone, although words with the third tone are often used similar to those in Mandarin with a neutral tone (e.g. for the possessive marker 嘅, equivalent to 的, and a high percentage of final particles). Thus, an unmarked syllable is the natural choice.
-
-6. Neither pinyin nor Yale has an equivalent tone mark for the low-level tone (equivalent to tone 6 - Yale uses the letter _h_ to indicate this, and Mandarin does not have an equivalent tone). Vietnamese has a glottalized tone with a similar contour, for which it uses a dot below (ạ). Vietnamese words with this tone are generally etymologically related to Cantonese words with tone 6, making this tone mark a natural choice for tone 6. Visually, a dot below can be thought of as the antithesis to the macron above (ā), as indicating a downward shift in pitch rather than an upward shift.
-
-The remaining two tones (4 and 5) pose more of a quandary, as the closest tones in the other systems are more disparate. Based on the criteria of emphasizing precomposed Unicode characters, we only have a few options, namely the haček (ǎ), grave (à), and tilde (ã) accents. We can also consider the circumflex (â), which has appeared in other proposals, since although there is no precomposed character with _n_, it is still possible to type an _n_ with a circumflex easily using the ABC-Extended keyboard on Mac OS.
-
-Under the visual distinctiveness criterion, the tilde (ã) is a poor choice due to its strong visual similarity with the macron (ā) in many typefaces.
-
-The circumflex (â) is also a poor choice, because in Vietnamese and (rarely) Hanyu Pinyin, it appears over certain vowels to indicate difference in vowel _quality_ rather than tone. The Vietnamese alphabet contains distinct vowels _â_, _ô_, and _ê_, while pinyin contains _ê_ for a small set of words. This could result in confusion to users of these other systems as to what marks indicate tone and what marks indicate an entirely different vowel.
-
-The only remaining choices are the haček (ǎ) and the grave (à). While arguments could be made for either assignment to tones 4 and 5, I believe the arguments are stronger for having tone 4 = à and 5 = ǎ. For one, a grave (à) accent makes much more sense for a falling tone than it does for a rising tone, and is used for falling tones in all three systems. Secondly, while in most cases the Mandarin tone indicated in pinyin by a haček (ǎ) is closer to the Cantonese low falling tone in many scenarios, it can also be pronounced closer to the low rising tone in other senarios (such as in isolation). Finally, words with the low rising tone are generally etymologically related to Mandarin words which use the haček in pinyin, which could be helpful to speakers of Mandarin.
