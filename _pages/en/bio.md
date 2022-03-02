@@ -4,4 +4,6 @@ title: Bio
 lang-ref: bio
 ---
 
-Born and raised in Huntington Beach, CA, I grew up in a Peruvian-American household speaking English and Spanish. I have Cantonese heritage on my mom's side, and have been actively learning and promoting written and spoken Cantonese since 2016. I'm currently working as a software engineer for Google Cloud.
+I currently work as a software engineer for Google Cloud.
+
+I am Peruvian-American, born and raised in Huntington Beach, CA, and grew up bilingual in English and Spanish. I have Cantonese heritage on my mom's side. Since 2016, I have been actively learning written and spoken Cantonese.
