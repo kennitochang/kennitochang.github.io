@@ -29,7 +29,9 @@ The six tones of Cantonese can be remembered using the mnemonic 一碗半牛腩�
 
 At a small cost in terms of the ability to distinguish tones visually, tone-marked jyutping reduces the amount of clutter and space between annotated Chinese characters. It provides a more compact reading experience for learning Cantonese and/or jyutping.
 
+### Annotation using (numbered) jyutping
 ![A poem annotated with numbered jyutping.](/assets/images/jyutping-number-annotation.png)
+### Annotation using jyutping with diacritics
 ![A poem annotated with marked jyutping.](/assets/images/jyutping-tonemark-annotation.png)
 
 The tone marks were chosen based on analogy with Hanyu Pinyin, Vietnamese, and Yale romanization, with an eye towards Unicode support. For a further explanation of Cantonese tones, see [here](https://jyutping.org/docs/tone/). In future versions of the browser extension, I hope to allow users to select their own tone marks if they wish.
