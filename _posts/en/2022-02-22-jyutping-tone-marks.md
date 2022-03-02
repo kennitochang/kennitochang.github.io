@@ -14,7 +14,7 @@ As it stands, the Linguistic Society of Hong Kong (see [jyutping.org](https://jy
 
 Here, I provide an example of how tone marks might be useful in a browser extension for annotating text. The system of tone marks I employed is not official by any means, and I hope that in publishing this extension I can help spur discussion around the future introduction of tone marks to jyutping.
 
-The six tones of Cantonese can be remembered using the mnemonic 一碗半牛腩飯 (one and a half bowls of beef brisket rice). For practice distinguishing the six tones, see [here](https://jyutping.org/docs/tone/).
+The six tones of Cantonese can be remembered using the mnemonic 一碗半牛腩飯 (one and a half bowls of beef brisket rice). For practice distinguishing the six tones, see [here](https://jyutping.org/en/docs/tone/).
 
 ## Inject Jyutping with Diacritics
 
