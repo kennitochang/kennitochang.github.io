@@ -6,7 +6,7 @@ lang-ref: jytuping-tones-marks
 
 所有觀點都係我自己嘅
 
-我最近遇到CanCLID嘅[Inject Jyutping](https://github.com/CanCLID/inject-jyutping)瀏覽器擴展程序，即係使用事實上喺學術界同教育界標準哋所用嘅[粵拼](https://zh-yue.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E8%AA%9E%E8%A8%80%E5%AD%B8%E5%AD%B8%E6%9C%83%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88)嚟標漢字。不過，由於粵拼嘅一個備受爭議嘅特性，即係使用數字嚟表示音調，我認為係少少難用嘅。即係因為註解嘅數字顯得烏喱馬扠。
+我最近遇到 CanCLID 嘅 [Inject Jyutping](https://github.com/CanCLID/inject-jyutping) 瀏覽器擴展程序，即係使用事實上喺學術界同教育界標準哋所用嘅[粵拼](https://zh-yue.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E8%AA%9E%E8%A8%80%E5%AD%B8%E5%AD%B8%E6%9C%83%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88)嚟標漢字。不過，由於粵拼嘅一個備受爭議嘅特性，即係使用數字嚟表示音調，我認為係少少難用嘅。即係因為註解嘅數字顯得烏喱馬扠。
 
 編號音調嘅一種替代方法係模仿[越南語](https://zh-yue.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E5%9C%8B%E8%AA%9E%E5%AD%97)同普通話[拼音](https://zh-yue.wikipedia.org/wiki/%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3)。聲調標記嘅好處係可以產生更簡潔嘅文本，並提供視覺和記憶線索來指導讀者嘅單詞發音。這些好處受到越南語和拼音用戶嘅好評。
 
