@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Annotating Text with Tone-Marked Jyutping
+title: 用聲調符號性粵拼嚟標漢字
 lang-ref: jytuping-tones-marks
 ---
 
-_All views are my own._
+所有觀點都係我自己嘅
 
 I recently came across CanCLID's [Inject Jyutping](https://github.com/CanCLID/inject-jyutping) browser extension, which annotates Chinese characters with the associated Cantonese pronunciation in [jyutping](https://en.wikipedia.org/wiki/Jyutping), the _de facto_ standard romanization for Cantonese in academia and education. However, I found the extension hard to use due to a much-debated feature of Jyutping, which is that it uses numbers to represent tones. In this case, the numbers made annotations appear cluttered. 
 
