@@ -21,7 +21,7 @@ lang-ref: jytuping-tones-marks
 
 調整CanCLID嘅瀏覽器擴展，我創建咗一個新嘅瀏覽器擴展用於粵拼註釋，佢用以下嘅音標系統：
 
-| 代表數字同符號 | 1¯ | 2' | 3 | 4` | 5ˇ | 6. |
+| 代表數字同符號 | 1¯ | 2´ | 3  | 4` | 5ˇ | 6. |
 |-------------|---|---|---|---|---|---|
 | 傳統聲調名 |陰平、高陰入 |陰上|陰去、低陰入 |陽平|陽上|陽去、陽入  |
 | 例子 | <span style="font-size:250%;">一</span> | <span style="font-size:250%;">碗</span> | <span style="font-size:250%;">半</span> | <span style="font-size:250%;">牛</span> | <span style="font-size:250%;">腩</span> | <span style="font-size:250%;">飯</span> |
