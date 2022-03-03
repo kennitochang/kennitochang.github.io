@@ -13,7 +13,7 @@ lang-ref: jytuping-tones-marks
 
 目前，香港語言學學會（見 [jyutping.org](https://jyutping.org)）仲未發布正式建議將粵拼添加聲調符號。依家，我用緊自己嘅聲標系統嚟學習粵語。除咗我之外，梗係有[其](https://www.reddit.com/r/Cantonese/comments/7r4y5b/random_idea_vietnamese_tone_marks)[他](http://www.cantonese.sheik.co.uk/phorum/read.php?1,127274,131154)[人](https://www.amazon.com/Cantonese-Everyone-English-Chinese/dp/9620718615)[咁](https://www.facebook.com/CantoneseABC)做。
 
-究竟我認為粵語標準中添加音標可能會大有利益。根據以下嘅討論所解釋嘅，直接註釋文本嚟講，對比用數字表示聲調，用符號表示聲調有緊要嘅好處。我用嘅聲調系統係我自己所創造嘅，反正唔好集中注意具體嘅系統到過份。我希望通過發布個瀏覽器擴充功能，我可以幫助激發關於未來將聲調引入粵拼嘅討論。
+我認為粵語標準中添加音標可能會大有利益。根據以下嘅討論所解釋嘅，直接註釋文本嚟講，對比用數字表示聲調，用符號表示聲調有緊要嘅好處。我用嘅聲調系統係我自己所創造嘅，反正唔好集中注意具體嘅系統到過份。我希望通過發布個瀏覽器擴充功能，我可以幫助激發關於未來將聲調引入粵拼嘅討論。
 
 粵語嘅六聲可以用助記詞『一碗半牛腩飯』嚟記得住。有關區分六種音調嘅練習，推薦參閱 [此處](https://jyutping.org/docs/tone/)。
 
