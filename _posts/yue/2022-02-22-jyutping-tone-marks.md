@@ -1,4 +1,5 @@
---- layout: post
+---
+layout: post
 title: 用聲調符號性粵拼嚟標漢字
 lang-ref: jytuping-tones-marks
 ---
@@ -19,12 +20,12 @@ lang-ref: jytuping-tones-marks
 
 調整CanCLID嘅瀏覽器擴展，我創建咗一個新嘅瀏覽器擴展用於粵拼註釋，佢用以下嘅音標系統：
 
-|音調 | 1¯ | 2' | 3 | 4` | 5ˇ | 6. |
+| 代表數字同符號 | 1¯ | 2' | 3 | 4` | 5ˇ | 6. |
 |-------------|---|---|---|---|---|---|
-|說明 |陰平、高陰入 |陰上|陰去、低陰入 |陽平|陽上|陽去、陽入  |
-|示例 | <span style="font-size:250%;">一</span> | <span style="font-size:250%;">碗</span> | <span style="font-size:250%;">半</span> | <span style="font-size:250%;">牛</span> | <span style="font-size:250%;">腩</span> | <span style="font-size:250%;">飯</span> |
-|玉屏 |jāt1 | wun2 |bun3 | ngau4 | naam5 | faan6 |
-| Jyutping 與變音符號 |jāt | wún |bun | ngàu | nǎam | fạan |
+| 傳統聲調名 |陰平、高陰入 |陰上|陰去、低陰入 |陽平|陽上|陽去、陽入  |
+| 例子 | <span style="font-size:250%;">一</span> | <span style="font-size:250%;">碗</span> | <span style="font-size:250%;">半</span> | <span style="font-size:250%;">牛</span> | <span style="font-size:250%;">腩</span> | <span style="font-size:250%;">飯</span> |
+| 粵拼 |jat1 | wun2 |bun3 | ngau4 | naam5 | faan6 |
+| 聲調符號性粵拼 |jāt | wún |bun | ngàu | nǎam | fạan |
 
 以越南文、漢語拼音、同埋耶魯粵語拼音為基礎，亦試緊Unicode嘅支持，我揀上面嘅音標。喺瀏覽器擴展嘅未來版本中，我希望允許用户揀自己所想嘅音標。
 
