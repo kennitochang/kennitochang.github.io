@@ -6,11 +6,12 @@ lang-ref: jytuping-tones-marks
 
 所有觀點都係我自己嘅
 
-我最近遇到 CanCLID 嘅 [Inject Jyutping](https://github.com/CanCLID/inject-jyutping) 瀏覽器擴展程序，即係使用事實上喺學術界同教育界標準哋所用嘅[粵拼](https://zh-yue.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E8%AA%9E%E8%A8%80%E5%AD%B8%E5%AD%B8%E6%9C%83%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88)嚟標漢字。不過，由於粵拼嘅一個備受爭議嘅特性，即係使用數字嚟表示音調，我認為係少少難用嘅。即係因為註解嘅數字顯得烏喱馬扠。
+我最近遇到 CanCLID 嘅 [Inject Jyutping](https://github.com/CanCLID/inject-jyutping) 瀏覽器擴展程序，即係使用事實上喺學術界同教育界標準哋所用嘅[香港語言學學會粵語拼音方案
+](https://zh-yue.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E8%AA%9E%E8%A8%80%E5%AD%B8%E5%AD%B8%E6%9C%83%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88)（粵拼）嚟標漢字。不過，由於粵拼嘅一個備受爭議嘅特性，即係使用數字嚟表示音調，我認為係少少難用嘅。即係因為註解嘅數字顯得烏喱馬扠。
 
 編號音調嘅一種替代方法係模仿[越南語](https://zh-yue.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E5%9C%8B%E8%AA%9E%E5%AD%97)同普通話[拼音](https://zh-yue.wikipedia.org/wiki/%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3)。聲調標記嘅好處係可以產生更簡潔嘅文本，並提供視覺和記憶線索來指導讀者嘅單詞發音。這些好處受到越南語和拼音用戶嘅好評。
 
-目前，香港語言學學會（見 [jyutping.org](https://jyutping.org)）仲未發布正式建議添加聲調。依家，我用緊自己嘅聲標系統嚟學習粵語。除咗我之外，梗係有[其](https://www.reddit.com/r/Cantonese/comments/7r4y5b/random_idea_vietnamese_tone_marks)[他](http://www.cantonese.sheik.co.uk/phorum/read.php?1,127274,131154)[人](https://www.amazon.com/Cantonese-Everyone-English-Chinese/dp/9620718615)[咁](https://www.facebook.com/CantoneseABC)做。
+目前，香港語言學學會（見 [jyutping.org](https://jyutping.org)）仲未發布正式建議將粵拼添加聲調符號。依家，我用緊自己嘅聲標系統嚟學習粵語。除咗我之外，梗係有[其](https://www.reddit.com/r/Cantonese/comments/7r4y5b/random_idea_vietnamese_tone_marks)[他](http://www.cantonese.sheik.co.uk/phorum/read.php?1,127274,131154)[人](https://www.amazon.com/Cantonese-Everyone-English-Chinese/dp/9620718615)[咁](https://www.facebook.com/CantoneseABC)做。
 
 究竟我認為粵語標準中添加音標可能會大有利益。根據以下嘅討論所解釋嘅，直接註釋文本嚟講，對比用數字表示聲調，用符號表示聲調有緊要嘅好處。我用嘅聲調系統係我自己所創造嘅，反正唔好集中主意具體嘅系統。我希望通過發布個瀏覽器擴充功能，我可以幫助激發關於未來將聲調引入粵拼嘅討論。
 
@@ -27,7 +28,7 @@ lang-ref: jytuping-tones-marks
 | 粵拼 |jat1 | wun2 |bun3 | ngau4 | naam5 | faan6 |
 | 聲調符號性粵拼 |jāt | wún |bun | ngàu | nǎam | fạan |
 
-以越南文、漢語拼音、同埋耶魯粵語拼音為基礎，亦試緊Unicode嘅支持，我揀上面嘅音標。喺瀏覽器擴展嘅未來版本中，我希望允許用户揀自己所想嘅音標。
+以越南文、漢語拼音、同埋耶魯粵語拼音為基礎，亦試緊 Unicode 嘅支持，我揀上面嘅音標。喺瀏覽器擴展嘅未來版本中，我希望允許用户揀自己所想嘅音標。
 
 喺視覺上區分音調嘅方面，有聲調符號性粵拼減少雜亂同漢字中間嘅空間。對比數字性粵拼，可以令閱讀體驗更加有效果。
 
@@ -39,4 +40,3 @@ lang-ref: jytuping-tones-marks
 - [火狐下載](https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/)
 - 谷歌瀏覽器下載(仲未畀人批准)
 - [GitHub Repo](https://github.com/kennitochang/inject-jyutping)
-
