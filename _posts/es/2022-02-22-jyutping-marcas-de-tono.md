@@ -36,5 +36,5 @@ Por un pequeño costo en términos de la capacidad de distinguir tonos visualmen
 
 ## Enlaces de Descargar
 - [Descargar para Firefox](https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/)
-- Descargar para Chrome (revisión pendiente)
+- [Descargar para Chrome](https://chrome.google.com/webstore/detail/inject-jyutping-with-tone/ljoecadmcgpclnfpdghdpcneldiinbkp?hl=en&authuser=0)
 - [GitHub Repo](https://github.com/kennitochang/inject-jyutping)

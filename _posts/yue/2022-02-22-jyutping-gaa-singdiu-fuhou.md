@@ -38,5 +38,5 @@ lang-ref: jytuping-tones-marks
 
 ## 下載瀏覽器擴展 
 - [火狐下載](https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/)
-- 谷歌瀏覽器下載(仲未畀人批准)
+- [谷歌瀏覽器下載](https://chrome.google.com/webstore/detail/inject-jyutping-with-tone/ljoecadmcgpclnfpdghdpcneldiinbkp?hl=en&authuser=0)
 - [GitHub Repo](https://github.com/kennitochang/inject-jyutping)

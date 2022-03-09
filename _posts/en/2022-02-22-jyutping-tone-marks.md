@@ -37,5 +37,5 @@ At a small cost in terms of the ability to distinguish tones visually, tone-mark
 
 ## Download Links
 - [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/)
-- Download for Chrome (pending review)
+- [Download for Chrome](https://chrome.google.com/webstore/detail/inject-jyutping-with-tone/ljoecadmcgpclnfpdghdpcneldiinbkp?hl=en&authuser=0)
 - [GitHub Repo](https://github.com/kennitochang/inject-jyutping)
