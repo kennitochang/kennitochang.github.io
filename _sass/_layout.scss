@@ -43,6 +43,10 @@ table.main {
     text-align: center;
     border-collapse: collapse;
     width: 100%;
+
+    tr {
+        border-bottom: 0px solid white;
+    }
 }
 
 img {
