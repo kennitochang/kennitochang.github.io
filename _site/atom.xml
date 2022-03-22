@@ -4,7 +4,7 @@
  <title>Kenneth Chang</title>
  <link href="https://kennethcha.ng/atom.xml" rel="self"/>
  <link href="https://kennethcha.ng/"/>
- <updated>2022-03-21T21:21:09-07:00</updated>
+ <updated>2022-03-21T22:07:16-07:00</updated>
  <id>https://kennethcha.ng</id>
  <author>
    <name></name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>用聲調符號性粵拼嚟標漢字</title>
-   <link href="https://kennethcha.ng/yue/2022/02/22/jyutping-gaa-singdiu-fuhou"/>
+   <link href="https://kennethcha.ng/yue/2022/02/22/jyutping-tone-marks"/>
    <updated>2022-02-22T00:00:00-08:00</updated>
-   <id>https://kennethcha.ng/yue/2022/02/22/jyutping-gaa-singdiu-fuhou</id>
+   <id>https://kennethcha.ng/yue/2022/02/22/jyutping-tone-marks</id>
    <content type="html">&lt;p&gt;所有觀點都係我自己嘅&lt;/p&gt;
 
 &lt;p&gt;我最近遇到 CanCLID 嘅 &lt;a href=&quot;https://github.com/CanCLID/inject-jyutping&quot;&gt;Inject Jyutping&lt;/a&gt; 瀏覽器擴展程序，即係用事實上喺學術界同教育界標準所用嘅&lt;a href=&quot;https://zh-yue.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E8%AA%9E%E8%A8%80%E5%AD%B8%E5%AD%B8%E6%9C%83%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88&quot;&gt;香港語言學學會粵語拼音方案
@@ -105,9 +105,9 @@
  
  <entry>
    <title>Anotación de texto con jyutping marcado por tono</title>
-   <link href="https://kennethcha.ng/es/2022/02/22/jyutping-marcas-de-tono"/>
+   <link href="https://kennethcha.ng/es/2022/02/22/jyutping-tone-marks"/>
    <updated>2022-02-22T00:00:00-08:00</updated>
-   <id>https://kennethcha.ng/es/2022/02/22/jyutping-marcas-de-tono</id>
+   <id>https://kennethcha.ng/es/2022/02/22/jyutping-tone-marks</id>
    <content type="html">&lt;p&gt;&lt;em&gt;Todas las opiniones son mías.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Recientemente me encontré con la extensión de navegador &lt;a href=&quot;https://github.com/CanCLI D/inject-jyutping&quot;&gt;Inject Jyutping&lt;/a&gt; de CanCLID, que anota caracteres chinos con la pronunciación cantonesa asociada en &lt;a href=&quot;https://es.wikipedia.org/wiki/Jyutping&quot;&gt;jyutping&lt;/a&gt;, la romanización estándar &lt;em&gt;de facto&lt;/em&gt; para el cantonés en la academia y la educación. Sin embargo, la extensión fue difícil de usar para mí debido a una característica muy debatida de Jyutping, especificamente que usa números para representar tonos. En este caso, los números hacen que las anotaciones afectan la legibilidad del texto original.&lt;/p&gt;

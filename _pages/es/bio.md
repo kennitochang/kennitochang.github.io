@@ -4,6 +4,6 @@ title: Sobre Mí
 lang-ref: bio
 ---
 
-Actualmente trabajo como ingeniero de software para Google Cloud.
+¡Hola! Soy un ingeniero de software peruano-estadounidense trabajando en Google. Me interesta trabajar para mejorar la tecnología para hablantes de idiomas minoritarios, incluido el cantonés.
 
-Soy peruano-estadounidense, originalmente de Huntington Beach, California. En mi niñez, aprendí en inglés y castellano. Tengo ascendencia cantonesa por parte de mi madre. Desde 2016, he estado aprendiendo activamente cantonés escrito y hablado.
+Puede ver mi [trabajo reciente]({% link _posts/en/2022-02-22-jyutping-tone-marks.md %}) en anotar texto en cantonés con una ortografía especializada.

@@ -4,6 +4,6 @@ title: Bio
 lang-ref: bio
 ---
 
-I currently work as a software engineer for Google Cloud.
+Hey there! I'm a Peruvian-American software engineer currently working for Google. I'm interested in improving user experiences for speakers of minority languages, including Cantonese.
 
-I am Peruvian-American, born and raised in Huntington Beach, CA, and grew up bilingual in English and Spanish. I have Cantonese heritage on my mom's side. Since 2016, I have been actively learning written and spoken Cantonese.
+Check out my [most recent work]({% link _posts/en/2022-02-22-jyutping-tone-marks.md %}) on annotating Cantonese text with a specialized orthography.
