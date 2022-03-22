@@ -1,6 +1,6 @@
 body {
   font-size: 1rem;
-  line-height: 2;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%;
@@ -12,6 +12,10 @@ body {
 
 header p strong {
     text-transform: uppercase;
+}
+
+p {
+  margin: 0 0 10px 0; 
 }
 
 .post-title {
