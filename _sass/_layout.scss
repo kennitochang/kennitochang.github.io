@@ -39,11 +39,12 @@ table {
 
 table.front {
     font-weight: bold;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
     border-collapse: collapse;
     table-layout: fixed;
     width: 100%;
+    line-height: 0;
 
     tr {
         border-bottom: 0px solid white;
