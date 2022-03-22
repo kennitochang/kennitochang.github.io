@@ -19,11 +19,11 @@ languages:
       - 
         lang-ref: bio
         title: Sobre Mí
-        url: /sobre-mi
+        url: /bio
       - 
         lang-ref: contact
         title: Contacto
-        url: /contacto
+        url: /contact
   - 
     language: yue
     display-name: 粵
@@ -31,8 +31,8 @@ languages:
       - 
         lang-ref: bio
         title: 關於我
-        url: /gwaanjyu-ngo
+        url: /bio
       - 
         lang-ref: contact
         title: 聯繫
-        url: /lyunhai
+        url: /contact
