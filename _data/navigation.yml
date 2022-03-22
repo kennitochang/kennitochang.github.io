@@ -9,10 +9,6 @@ languages:
         title: Bio
         url: /bio
       - 
-        lang-ref: notes
-        title: Notes
-        url: /notes
-      - 
         lang-ref: contact
         title: Contact
         url: /contact
@@ -25,10 +21,6 @@ languages:
         title: Sobre Mí
         url: /sobre-mi
       - 
-        lang-ref: notes
-        title: Notas
-        url: /notas
-      - 
         lang-ref: contact
         title: Contacto
         url: /contacto
@@ -40,10 +32,6 @@ languages:
         lang-ref: bio
         title: 關於我
         url: /gwaanjyu-ngo
-      - 
-        lang-ref: notes
-        title: 筆記
-        url: /batgei
       - 
         lang-ref: contact
         title: 聯繫
