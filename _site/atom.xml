@@ -4,7 +4,7 @@
  <title>Kenneth Chang</title>
  <link href="https://kennethcha.ng/atom.xml" rel="self"/>
  <link href="https://kennethcha.ng/"/>
- <updated>2022-03-02T22:10:07-08:00</updated>
+ <updated>2022-03-21T19:04:05-07:00</updated>
  <id>https://kennethcha.ng</id>
  <author>
    <name></name>
@@ -39,7 +39,7 @@
     &lt;tr&gt;
       &lt;th&gt;代表數字同符號&lt;/th&gt;
       &lt;th&gt;1¯&lt;/th&gt;
-      &lt;th&gt;2’&lt;/th&gt;
+      &lt;th&gt;2´&lt;/th&gt;
       &lt;th&gt;3&lt;/th&gt;
       &lt;th&gt;4`&lt;/th&gt;
       &lt;th&gt;5ˇ&lt;/th&gt;
@@ -97,7 +97,96 @@
 &lt;h2 id=&quot;下載瀏覽器擴展&quot;&gt;下載瀏覽器擴展&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/&quot;&gt;火狐下載&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;谷歌瀏覽器下載(仲未畀人批准)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/inject-jyutping-with-tone/ljoecadmcgpclnfpdghdpcneldiinbkp?hl=en&amp;amp;authuser=0&quot;&gt;谷歌瀏覽器下載&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/kennitochang/inject-jyutping&quot;&gt;GitHub Repo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Anotación de texto con jyutping marcado por tono</title>
+   <link href="https://kennethcha.ng/es/2022/02/22/jyutping-marcas-de-tono"/>
+   <updated>2022-02-22T00:00:00-08:00</updated>
+   <id>https://kennethcha.ng/es/2022/02/22/jyutping-marcas-de-tono</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Todas las opiniones son mías.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Recientemente me encontré con la extensión de navegador &lt;a href=&quot;https://github.com/CanCLI D/inject-jyutping&quot;&gt;Inject Jyutping&lt;/a&gt; de CanCLID, que anota caracteres chinos con la pronunciación cantonesa asociada en &lt;a href=&quot;https://es.wikipedia.org/wiki/Jyutping&quot;&gt;jyutping&lt;/a&gt;, la romanización estándar &lt;em&gt;de facto&lt;/em&gt; para el cantonés en la academia y la educación. Sin embargo, la extensión fue difícil de usar para mí debido a una característica muy debatida de Jyutping, especificamente que usa números para representar tonos. En este caso, los números hacen que las anotaciones afectan la legibilidad del texto original.&lt;/p&gt;
+
+&lt;p&gt;Una alternativa a los tonos numerados es representar tonos usando marcas de tono (también conocido como diacríticos) como en &lt;a href=&quot;https://en.wikipedia.org/wiki/Vietnamese_alphabet&quot;&gt;vietnamita&lt;/a&gt; y chino mandarín &lt;a href=&quot;https://en.wikipedia.org/wiki/Pinyin&quot;&gt;pinyin&lt;/a&gt;. Las marcas de tono tienen la ventaja de producir un texto más condensado y proporcionar pistas visuales y mnemotécnicas que guían la pronunciación de las palabras por parte del lector. Estos ventajas son bien apreciados por hablantes de vietnamita y pinyin.&lt;/p&gt;
+
+&lt;p&gt;Tal como está, la Sociedad Lingüística de Hong Kong (ver &lt;a href=&quot;https://jyutping.org&quot;&gt;jyutping.org&lt;/a&gt;) aún no ha publicado una propuesta oficial para agregar marcas de tono. Por mi cuenta, usado mi propio sistema de marcas tonales para estudiar cantonés. Claro que &lt;a href=&quot;https://www.reddit.com/r/Cantonese/comments/7r4y 5b/random_idea_vietnamese_tone_marks&quot;&gt;no&lt;/a&gt; &lt;a href=&quot;http://www.cantonese.sheik.co.uk/phorum/read.php?1,127274,131154&quot;&gt;soy&lt;/a&gt; &lt;a href=&quot;https://www.amazon.com/Cantonese-Everyone-English-Chinese/dp/9620718615&quot;&gt;el&lt;/a&gt; &lt;a href=&quot;https://www.facebook.com/CantoneseABC&quot;&gt;único&lt;/a&gt; de haberlo hecho.&lt;/p&gt;
+
+&lt;p&gt;En última instancia, creo que agregar marcas de tono al estándar jyutping podría ser muy beneficioso. Cuando se trata de anotar texto directamente, como analizo a continuación, el jyutping marcado por tono tiene ventajas significativas sobre el jyutping numérico regular. El sistema de marcas de tono que empleo es mi propia creación, aunque ese no es el enfoque principal aquí. Espero que al publicar esta extensión pueda ayudar a estimular la discusión sobre la futura introducción de marcas de tono en jyutping.&lt;/p&gt;
+
+&lt;p&gt;Los seis tonos del cantonés se pueden recordar usando el mnemónico 一碗半牛腩飯 (un tazón y medio de arroz con pechuga de res). Para practicar cómo distinguir los seis tonos, consulte &lt;a href=&quot;https://jyutping.org/en/docs/tone/&quot;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;inyectar-jyutping-con-diacríticos&quot;&gt;Inyectar jyutping con diacríticos&lt;/h2&gt;
+&lt;p&gt;Basado en la extensión de navegador de CanCLID, creé una nueva extensión de navegador para la anotación jyutping que usa el siguiente sistema de marcas de tono:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Tone&lt;/th&gt;
+      &lt;th&gt;1¯&lt;/th&gt;
+      &lt;th&gt;2´&lt;/th&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;th&gt;4`&lt;/th&gt;
+      &lt;th&gt;5ˇ&lt;/th&gt;
+      &lt;th&gt;6.&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Description&lt;/td&gt;
+      &lt;td&gt;nivel alto&lt;/td&gt;
+      &lt;td&gt;alto ascendente&lt;/td&gt;
+      &lt;td&gt;nivel medio&lt;/td&gt;
+      &lt;td&gt;bajo descendente&lt;/td&gt;
+      &lt;td&gt;bajo ascendente&lt;/td&gt;
+      &lt;td&gt;nivel bajo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Example&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;font-size:250%;&quot;&gt;一&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;font-size:250%;&quot;&gt;碗&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;font-size:250%;&quot;&gt;半&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;font-size:250%;&quot;&gt;牛&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;font-size:250%;&quot;&gt;腩&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;font-size:250%;&quot;&gt;飯&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Jyutping&lt;/td&gt;
+      &lt;td&gt;jat1&lt;/td&gt;
+      &lt;td&gt;wun2&lt;/td&gt;
+      &lt;td&gt;bun3&lt;/td&gt;
+      &lt;td&gt;ngau4&lt;/td&gt;
+      &lt;td&gt;naam5&lt;/td&gt;
+      &lt;td&gt;faan6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Jyutping with Diacritics&lt;/td&gt;
+      &lt;td&gt;jāt&lt;/td&gt;
+      &lt;td&gt;wún&lt;/td&gt;
+      &lt;td&gt;bun&lt;/td&gt;
+      &lt;td&gt;ngàu&lt;/td&gt;
+      &lt;td&gt;nǎam&lt;/td&gt;
+      &lt;td&gt;fạan&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Elegí las marcas de tono anteriores en base a la analogía con Hanyu Pinyin, vietnamita y la romanización de Yale, con miras a la compatibilidad con Unicode. En futuras versiones de la extensión del navegador, espero permitir a los usuarios seleccionar sus propias marcas de tono si así lo desean.&lt;/p&gt;
+
+&lt;p&gt;Por un pequeño costo en términos de la capacidad de distinguir tonos visualmente, el jyutping marcado por tono reduce la cantidad de desorden y el espacio entre los caracteres chinos anotados. En comparación con el jyutping numérico, permite una experiencia de lectura más compacta para el texto en cantonés anotado.&lt;/p&gt;
+
+&lt;h3 id=&quot;ejemplo-de-anotación-usando-jyutping-con-diacríticos&quot;&gt;Ejemplo de anotación usando jyutping con diacríticos&lt;/h3&gt;
+&lt;p&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;人&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;jàn&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;人&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;jàn&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;生&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;sāang&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;出&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;cēot&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;嚟&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;lài&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;就&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;zạu&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;係&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;hại&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;自&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;zị&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;由&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;jàu&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;嘅&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;ge&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;，&lt;ruby class=&quot;inject-jyutping&quot;&gt;喺&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;hái&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;尊&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;zyūn&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;嚴&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;jìm&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;同&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;tùng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;權&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;kyùn&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;利&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;lẹi&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;上&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;sǒeng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;一&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;jāt&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;律&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;lẹot&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;平&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;pìng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;等&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;dáng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;。&lt;ruby class=&quot;inject-jyutping&quot;&gt;佢&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;kěoi&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;哋&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;dẹi&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;具&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;gẹoi&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;有&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;jǎu&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;理&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;lěi&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;性&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;sing&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;同&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;tùng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;良&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;lòeng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;心&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;sām&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;，&lt;ruby class=&quot;inject-jyutping&quot;&gt;而&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;jì&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;且&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;cé&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;應&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;jīng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;該&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;gōi&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;用&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;jụng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;兄&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;hīng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;弟&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;dại&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;間&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;gāan&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;嘅&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;ge&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;關&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;gwāan&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;係&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;hại&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;嚟&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;lài&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;互&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;wụ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;相&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;sōeng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;對&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;deoi&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby class=&quot;inject-jyutping&quot;&gt;待&lt;rp&gt;(&lt;/rp&gt;&lt;rt lang=&quot;yue-Latn&quot;&gt;dọi&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;。
+&lt;/p&gt;
+
+&lt;h2 id=&quot;enlaces-de-descargar&quot;&gt;Enlaces de Descargar&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/&quot;&gt;Descargar para Firefox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/inject-jyutping-with-tone/ljoecadmcgpclnfpdghdpcneldiinbkp?hl=en&amp;amp;authuser=0&quot;&gt;Descargar para Chrome&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/kennitochang/inject-jyutping&quot;&gt;GitHub Repo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
@@ -187,7 +276,7 @@
 &lt;h2 id=&quot;download-links&quot;&gt;Download Links&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping-diacritics/&quot;&gt;Download for Firefox&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Download for Chrome (pending review)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/inject-jyutping-with-tone/ljoecadmcgpclnfpdghdpcneldiinbkp?hl=en&amp;amp;authuser=0&quot;&gt;Download for Chrome&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/kennitochang/inject-jyutping&quot;&gt;GitHub Repo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
