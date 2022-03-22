@@ -19,12 +19,12 @@ Los seis tonos del cantonés se pueden recordar usando el mnemónico 一碗半�
 ## Inyectar jyutping con diacríticos
 Basado en la extensión de navegador de CanCLID, creé una nueva extensión de navegador para la anotación jyutping que usa el siguiente sistema de marcas de tono:
 
-| Tone | 1¯ | 2´ | 3   | 4` | 5ˇ | 6. |
+| Tono | 1¯ | 2´ | 3   | 4` | 5ˇ | 6. |
 |-------------|---|---|---|---|---|---|
-| Description  | nivel alto | alto ascendente | nivel medio | bajo descendente | bajo ascendente | nivel bajo |
-| Example   | <span style="font-size:250%;">一</span> | <span style="font-size:250%;">碗</span> | <span style="font-size:250%;">半</span> | <span style="font-size:250%;">牛</span> | <span style="font-size:250%;">腩</span> | <span style="font-size:250%;">飯</span> |
+| Descripción  | nivel alto | alto ascendente | nivel medio | bajo descendente | bajo ascendente | nivel bajo |
+| Ejemplo   | <span style="font-size:250%;">一</span> | <span style="font-size:250%;">碗</span> | <span style="font-size:250%;">半</span> | <span style="font-size:250%;">牛</span> | <span style="font-size:250%;">腩</span> | <span style="font-size:250%;">飯</span> |
 | Jyutping   | jat1 | wun2 | bun3 | ngau4 | naam5 | faan6 |
-| Jyutping with Diacritics  | jāt | wún | bun | ngàu | nǎam | fạan |
+| Jyutping con Diacríticas  | jāt | wún | bun | ngàu | nǎam | fạan |
 
 Elegí las marcas de tono anteriores en base a la analogía con Hanyu Pinyin, vietnamita y la romanización de Yale, con miras a la compatibilidad con Unicode. En futuras versiones de la extensión del navegador, espero permitir a los usuarios seleccionar sus propias marcas de tono si así lo desean.
 
