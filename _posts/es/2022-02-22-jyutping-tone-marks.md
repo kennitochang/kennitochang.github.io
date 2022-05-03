@@ -6,18 +6,8 @@ lang-ref: jytuping-tones-marks
 
 _Todas las opiniones son mías._
 
-Recientemente me encontré con la extensión de navegador [Inject Jyutping](https://github.com/CanCLI D/inject-jyutping) de CanCLID, que anota caracteres chinos con la pronunciación cantonesa asociada en [jyutping](https://es.wikipedia.org/wiki/Jyutping), la romanización estándar _de facto_ para el cantonés en la academia y la educación. Sin embargo, la extensión fue difícil de usar para mí debido a una característica muy debatida de Jyutping, especificamente que usa números para representar tonos. En este caso, los números hacen que las anotaciones afectan la legibilidad del texto original.
-
-Una alternativa a los tonos numerados es representar tonos usando marcas de tono (también conocido como diacríticos) como en [vietnamita](https://en.wikipedia.org/wiki/Vietnamese_alphabet) y chino mandarín [pinyin](https://en.wikipedia.org/wiki/Pinyin). Las marcas de tono tienen la ventaja de producir un texto más condensado y proporcionar pistas visuales y mnemotécnicas que guían la pronunciación de las palabras por parte del lector. Estos ventajas son bien apreciados por hablantes de vietnamita y pinyin.
-
-Tal como está, la Sociedad Lingüística de Hong Kong (ver [jyutping.org](https://jyutping.org)) aún no ha publicado una propuesta oficial para agregar marcas de tono. Por mi cuenta, usado mi propio sistema de marcas tonales para estudiar cantonés. Claro que [no](https://www.reddit.com/r/Cantonese/comments/7r4y 5b/random_idea_vietnamese_tone_marks) [soy](http://www.cantonese.sheik.co.uk/phorum/read.php?1,127274,131154) [el](https://www.amazon.com/Cantonese-Everyone-English-Chinese/dp/9620718615) [único](https://www.facebook.com/CantoneseABC) de haberlo hecho.
-
-En última instancia, creo que agregar marcas de tono al estándar jyutping podría ser muy beneficioso. Cuando se trata de anotar texto directamente, como analizo a continuación, el jyutping marcado por tono tiene ventajas significativas sobre el jyutping numérico regular. El sistema de marcas de tono que empleo es mi propia creación, aunque ese no es el enfoque principal aquí. Espero que al publicar esta extensión pueda ayudar a estimular la discusión sobre la futura introducción de marcas de tono en jyutping.
-
-Los seis tonos del cantonés se pueden recordar usando el mnemónico 一碗半牛腩飯 (un tazón y medio de arroz con pechuga de res). Para practicar cómo distinguir los seis tonos, consulte [aquí](https://jyutping.org/en/docs/tone/).
-
 ## Inyectar jyutping con diacríticos
-Basado en la extensión de navegador de CanCLID, creé una nueva extensión de navegador para la anotación jyutping que usa el siguiente sistema de marcas de tono:
+Basado en la extensión de navegador popular [Inject Jyutping](https://github.com/CanCLID/inject-jyutping) de CanCLID, creé una nueva extensión de navegador para la anotación jyutping que usa el siguiente sistema de marcas de tono:
 
 | Tono | 1¯ | 2´ | 3   | 4` | 5ˇ | 6. |
 |-------------|---|---|---|---|---|---|
