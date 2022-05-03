@@ -6,7 +6,6 @@ lang-ref: jytuping-tones-marks
 
 _Todas las opiniones son mías._
 
-## Inyectar jyutping con diacríticos
 Basado en la extensión de navegador popular [Inject Jyutping](https://github.com/CanCLID/inject-jyutping) de CanCLID, creé una nueva extensión de navegador para la anotación jyutping que usa el siguiente sistema de marcas de tono:
 
 | Tono | 1¯ | 2´ | 3   | 4` | 5ˇ | 6. |

@@ -6,8 +6,6 @@ lang-ref: jytuping-tones-marks
 
 _All views are my own._
 
-## Inject Jyutping with Diacritics
-
 Based on CanCLID's popular [Inject Jyutping](https://github.com/CanCLID/inject-jyutping) browser extension, I created a new browser extension for annotating Chinese/Cantonese text that uses the following system of Cantonese tone marks:
 
 | Tone | 1¯ | 2´ | 3   | 4` | 5ˇ | 6. |

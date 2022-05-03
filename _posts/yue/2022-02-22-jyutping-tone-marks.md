@@ -4,22 +4,7 @@ title: 用聲調符號性粵拼嚟標漢字
 lang-ref: jytuping-tones-marks
 ---
 
-所有觀點都係我自己嘅
-
-我最近遇到 CanCLID 嘅 [Inject Jyutping](https://github.com/CanCLID/inject-jyutping) 瀏覽器擴展程序，即係用事實上喺學術界同教育界標準所用嘅[香港語言學學會粵語拼音方案
-](https://zh-yue.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E8%AA%9E%E8%A8%80%E5%AD%B8%E5%AD%B8%E6%9C%83%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88)（粵拼）嚟將漢字附上發音。不過，由於粵拼嘅一個備受爭議嘅特性，即係使用數字嚟表示音調，我認為係少少難用嘅。即係因為註解嘅數字顯得烏喱馬扠。
-
-編號音調嘅一種替代方法係模仿[越南語](https://zh-yue.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E5%9C%8B%E8%AA%9E%E5%AD%97)同[漢語拼音](https://zh-yue.wikipedia.org/wiki/%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3)。聲調標記嘅好處係可以產生更簡潔嘅文本，並提供視覺和記憶線索來指導讀者嘅單詞發音。這些好處受到越南語和拼音用户嘅好評。
-
-目前，香港語言學學會（見 [jyutping.org](https://jyutping.org)）仲未發布正式建議將粵拼添加聲調符號。依家，我用緊自己嘅聲標系統嚟學習粵語。除咗我之外，梗係有[其](https://www.reddit.com/r/Cantonese/comments/7r4y5b/random_idea_vietnamese_tone_marks)[他](http://www.cantonese.sheik.co.uk/phorum/read.php?1,127274,131154)[人](https://www.amazon.com/Cantonese-Everyone-English-Chinese/dp/9620718615)[咁](https://www.facebook.com/CantoneseABC)做。
-
-我認為粵語標準中添加音標可能會大有利益。根據以下嘅討論所解釋嘅，直接註釋文本嚟講，對比用數字表示聲調，用符號表示聲調有緊要嘅好處。我用嘅聲調系統係我自己所創造嘅，反正唔好集中注意具體嘅系統到過份。我希望通過發布個瀏覽器擴充功能，我可以幫助激發關於未來將聲調引入粵拼嘅討論。
-
-粵語嘅六聲可以用助記詞『一碗半牛腩飯』嚟記得住。有關區分六種音調嘅練習，推薦參閱 [此處](https://jyutping.org/docs/tone/)。
-
-## 使用變音符號注入粵拼
-
-調整CanCLID嘅瀏覽器擴展，我創建咗一個新嘅瀏覽器擴展用於粵拼註釋，佢用以下嘅音標系統：
+調整CanCLID嘅[Inject Jyutping](https://github.com/CanCLID/inject-jyutping)瀏覽器擴展，我創建咗一個新嘅瀏覽器擴展用於粵拼註釋，佢用以下嘅音標系統：
 
 | 代表數字同符號 | 1¯ | 2´ | 3  | 4` | 5ˇ | 6. |
 |-------------|---|---|---|---|---|---|
