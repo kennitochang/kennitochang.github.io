@@ -6,19 +6,9 @@ lang-ref: jytuping-tones-marks
 
 _All views are my own._
 
-I recently came across CanCLID's [Inject Jyutping](https://github.com/CanCLID/inject-jyutping) browser extension, which annotates Chinese characters with the associated Cantonese pronunciation in [jyutping](https://en.wikipedia.org/wiki/Jyutping), the _de facto_ standard romanization for Cantonese in academia and education. However, I found the extension hard to use due to a much-debated feature of Jyutping, which is that it uses numbers to represent tones. In this case, the numbers made annotations appear cluttered. 
-
-One alternative to numbered tones is representing tones using tone marks (aka diacritics) as in [Vietnamese](https://en.wikipedia.org/wiki/Vietnamese_alphabet) and Mandarin Chinese [pinyin](https://en.wikipedia.org/wiki/Pinyin). Tone marks have the benefit of producing more condensed text and providing visual and mnemonic cues guiding the reader's pronunciation of words. These benefits are well-appreciated by users of both Vietnamese and pinyin.
-
-As it stands, the Linguistic Society of Hong Kong (see [jyutping.org](https://jyutping.org)) is yet to release an official proposal for adding tone marks. Up until now, I have been using my own system of tone marks to study Cantonese. I am certainly [not](https://www.reddit.com/r/Cantonese/comments/7r4y5b/random_idea_vietnamese_tone_marks) [the](http://www.cantonese.sheik.co.uk/phorum/read.php?1,127274,131154) [only](https://www.amazon.com/Cantonese-Everyone-English-Chinese/dp/9620718615) [person](https://www.facebook.com/CantoneseABC) to have done so.
-
-Ultimately, I believe adding tone marks to the jyutping standard could be widely beneficial. When it comes to directly annotating text, as I discuss below, tone-marked jyutping has signifcant advantages over regular, numeric jyutping. The system of tone marks I employ is my own creation, although that isn’t the main focus here — I hope that in publishing this extension I can help spur discussion around the future introduction of tone marks to jyutping.
-
-The six tones of Cantonese can be remembered using the mnemonic 一碗半牛腩飯 (one and a half bowls of beef brisket rice). For practice distinguishing the six tones, see [here](https://jyutping.org/en/docs/tone/).
-
 ## Inject Jyutping with Diacritics
 
-Based on CanCLID's browser extension, I created a new browser extension for jyutping annotation that uses the following system of tone marks:
+Based on CanCLID's popular [Inject Jyutping](https://github.com/CanCLID/inject-jyutping) browser extension, I created a new browser extension for annotating Chinese/Cantonese text that uses the following system of Cantonese tone marks:
 
 | Tone | 1¯ | 2´ | 3   | 4` | 5ˇ | 6. |
 |-------------|---|---|---|---|---|---|
